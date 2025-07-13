@@ -1,0 +1,3 @@
+[submodule "mapmagic"]
+	path = mapmagic
+	url = https://gitlab.com/denispahunov/mapmagic.git
