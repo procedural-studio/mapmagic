@@ -1,0 +1,9 @@
+.*/
+Temp/
+*.bac
+*.bac*
+*.tmp
+Snippets/
+VariousUseful/
+*.bac.meta
+.DS_Store

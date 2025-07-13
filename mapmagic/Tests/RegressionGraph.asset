@@ -1,0 +1,1664 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
+  m_Name: RegressionGraph
+  m_EditorClassIdentifier: 
+  generators:
+  - rid: 1885265962206757937
+  - rid: 1885265962206757938
+  - rid: 1885265962206757939
+  - rid: 1885266124830932992
+  - rid: 1885266145520910336
+  - rid: 1885266145520910337
+  - rid: 269478357015462593
+  - rid: 269478357015462594
+  - rid: 269478416634348311
+  - rid: 269478416634348312
+  - rid: 269478541309772159
+  - rid: 269478553117524352
+  - rid: 269478553117524356
+  - rid: 269478553117524357
+  - rid: 269478553117524359
+  - rid: 269478553117524368
+  - rid: 269478553117524369
+  - rid: 269478553117524373
+  - rid: 269478553117524406
+  - rid: 269478809174802574
+  - rid: 269478809174802577
+  - rid: 269478822266536121
+  - rid: 269478822266536122
+  - rid: 269478852950753392
+  - rid: 269478852950753395
+  - rid: 269478852950753400
+  - rid: 8859647044563239006
+  - rid: 8859647068518744064
+  - rid: 8859647068518744181
+  - rid: 8859647068518744182
+  - rid: 8859647068518744242
+  groups:
+  - rid: 1885265962206757940
+  - rid: 1885265962206757941
+  - rid: 1885265962206757942
+  - rid: 269478553117524360
+  - rid: 269478553117524361
+  - rid: 269478553117524362
+  - rid: 269478553117524370
+  - rid: 269478553117524371
+  - rid: 269478553117524393
+  - rid: 269478553117524407
+  - rid: 269478553117524408
+  - rid: 269478553117524409
+  guiScroll: {x: -92.42346, y: 431.1494}
+  guiZoomStage: -4
+  guiShowDependent: 0
+  guiShowShared: 0
+  guiShowExposed: 0
+  guiShowDebug: 0
+  guiShowColors: 1
+  guiMiniPos: {x: 20, y: 20}
+  guiMiniAnchor: {x: 0, y: 0}
+  debugName: 
+  debugGenerate: 1
+  debugGenInfo: 0
+  debugGraphBackground: 1
+  debugGraphBackColor: 0.5
+  debugGraphFps: 1
+  drawInSceneView: 0
+  saveChanges: 1
+  debugDrawPortalLinks: 0
+  debugDrawMousePosition: 1
+  assetName: RegressionGraph
+  serializedVersion:
+    major: 3
+    minor: 0
+    prt: 4
+    patch: 0
+  serializedGeneratorIds300: 0900000000d225400a00000000d325400b00000000d32540010000000048e5070100000000eb33bc0400000000edacbc080000000053dc860900000000fa95880500000000c1310c0500000000941f280500000000b150260500000000caa6dc0b0000000074bde60c0000000074bde605000000003bac860700000000798de90800000000b1b8e90b00000000aa9fea0500000000bdbefe080000000020e1900c00000000e057940700000000dd45a80800000000fd14be0700000000f8a57a0a00000000fc02d011000000005c16d409000000003854990900000000e59ffa070000000017ee170700000000f8f987070000000099bbc4
+  serializedInlets300: 0600000000caa6dc0700000000edacbc0b00000000d32540090000000044c3400a0000000092348d0a000000002a82320800000000f02188070000000017ee171900000000687ae306000000003bac86
+  serializedOutlets300: 05000000003bac86040000000075e3c5070000000017ee170800000000fd14be0800000000fd14be09000000003854990a00000000fc02d00700000000dd45a80900000000385499010000000048e507
+  serializedNoiseSeed: 12345
+  serializedNoisePermutation: 32768
+  serializer200beta:
+    serializedData: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 269478357015462593
+      type: {class: TreesOutput, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 9717733355423793160
+        version: 3
+        draftTime: 0
+        mainTime: 0.0041
+        guiPosition: {x: 1071.1831, y: 324.91785}
+        guiSize: {x: 150, y: 60}
+        guiName: TREES
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 0
+        guiFieldHeight: 149
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes: []
+        serializedMissingInletIds: 080000000053dc86
+        serializedMissingOutletIds: 
+        prefabs:
+        - {fileID: 180528, guid: 1dfd1c4d72020f54ab767951a2d079a9, type: 3}
+        posSettings:
+          objHeight: 1
+          relativeHeight: 1
+          guiHeight: 0
+          useRotation: 1
+          takeTerrainNormal: 0
+          rotateYonly: 0
+          regardPrefabRotation: 0
+          guiRotation: 0
+          useScale: 1
+          scaleYonly: 0
+          regardPrefabScale: 0
+          guiScale: 0
+        biomeBlend: 1
+        outputLevel: 2
+        guiMultiprefab: 0
+        guiProperties: 0
+        seed: 12345
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lightmapColor: {r: 1, g: 1, b: 1, a: 1}
+        bendFactor: 0
+        objHeight: 1
+        relativeHeight: 1
+        guiHeight: 0
+        useRotation: 1
+        takeTerrainNormal: 0
+        rotateYonly: 0
+        regardPrefabRotation: 0
+        guiRotation: 0
+        useScale: 1
+        scaleYonly: 0
+        regardPrefabScale: 0
+        guiScale: 0
+    - rid: 269478357015462594
+      type: {class: ObjectsOutput, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 9842047438595031049
+        version: 16
+        draftTime: 0
+        mainTime: 0.0026
+        guiPosition: {x: -203.48216, y: 401.95496}
+        guiSize: {x: 164.89093, y: 209}
+        guiName: OBJECTS
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 149
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes: []
+        serializedMissingInletIds: 0900000000fa9588
+        serializedMissingOutletIds: 
+        prefabs:
+        - {fileID: 180528, guid: 1dfd1c4d72020f54ab767951a2d079a9, type: 3}
+        posSettings:
+          objHeight: 1
+          relativeHeight: 1
+          guiHeight: 0
+          useRotation: 1
+          takeTerrainNormal: 0
+          rotateYonly: 0
+          regardPrefabRotation: 0
+          guiRotation: 0
+          useScale: 1
+          scaleYonly: 0
+          regardPrefabScale: 0
+          guiScale: 0
+        biomeBlend: 1
+        outputLevel: 2
+        guiMultiprefab: 0
+        guiProperties: 0
+        allowReposition: 1
+        instantiateClones: 0
+        seed: 12345
+        objHeight: 1
+        relativeHeight: 1
+        guiHeight: 0
+        useRotation: 1
+        takeTerrainNormal: 0
+        rotateYonly: 0
+        regardPrefabRotation: 0
+        guiRotation: 0
+        useScale: 1
+        scaleYonly: 0
+        regardPrefabScale: 0
+        guiScale: 0
+    - rid: 269478416634348311
+      type: {class: MatrixPortalEnter, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 878695608058118149
+        version: 1
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 286.6727, y: 245.21089}
+        guiSize: {x: 120, y: 32}
+        guiName: Portal
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 0
+        guiFieldHeight: 1055.1653
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0500000000c1310c
+        serializedMissingOutletIds: 0500000000c1310c
+    - rid: 269478416634348312
+      type: {class: MatrixPortalExit, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 2891192213516058629
+        version: 10
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 409.28833, y: 245.49484}
+        guiSize: {x: 120, y: 32}
+        guiName: 
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 0
+        guiFieldHeight: 60
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0500000000941f28
+        serializedMissingOutletIds: 0500000000941f28
+    - rid: 269478541309772159
+      type: {class: Constant200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 2760901185136230405
+        version: 0
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: -697.1701, y: 469.6043}
+        guiSize: {x: 150, y: 88}
+        guiName: CONSTANT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 28
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0500000000b15026
+        level: 0
+    - rid: 269478553117524352
+      type: {class: Adjust200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 15899617635826925573
+        version: 5
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 663.9553, y: 254.29471}
+        guiSize: {x: 150, y: 273}
+        guiName: ADJUST
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 173
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0600000000caa6dc0700000000caa6dc
+        serializedMissingOutletIds: 0500000000caa6dc
+        input:
+          id: 15899617635826925574
+          guiName: 
+        intensityIn:
+          id: 15899617635826925575
+          guiName: 
+        useRandom: 0
+        seed: 12345
+        sizeFactor: 0
+        relativeness: 1
+        offsetFront: {x: 0, y: 0}
+        offsetRight: {x: 0, y: 0}
+        height: {x: 0, y: 0}
+        rotation: {x: 0, y: 0}
+        scale: {x: 1, y: 1}
+    - rid: 269478553117524356
+      type: {class: Adjust200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 16626572942670561291
+        version: 3
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 1961.4487, y: -66.31911}
+        guiSize: {x: 150, y: 273}
+        guiName: ADJUST
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 173
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 090000000074bde60a0000000074bde6
+        serializedMissingOutletIds: 0b0000000074bde6
+        input:
+          id: 16626572942670561289
+          guiName: 
+        intensityIn:
+          id: 16626572942670561290
+          guiName: 
+        useRandom: 0
+        seed: 12345
+        sizeFactor: 0
+        relativeness: 1
+        offsetFront: {x: 0, y: 0}
+        offsetRight: {x: 0, y: 0}
+        height: {x: 0, y: 0}
+        rotation: {x: 0, y: 0}
+        scale: {x: 1, y: 1}
+    - rid: 269478553117524357
+      type: {class: ObjectsOutput, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 16626572942670561292
+        version: 3
+        draftTime: 0
+        mainTime: 0.002
+        guiPosition: {x: 730.9087, y: 676.9076}
+        guiSize: {x: 150, y: 209}
+        guiName: OBJECTS
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 149
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes: []
+        serializedMissingInletIds: 0c0000000074bde6
+        serializedMissingOutletIds: 
+        prefabs:
+        - {fileID: 180528, guid: 1dfd1c4d72020f54ab767951a2d079a9, type: 3}
+        posSettings:
+          objHeight: 1
+          relativeHeight: 1
+          guiHeight: 0
+          useRotation: 1
+          takeTerrainNormal: 0
+          rotateYonly: 0
+          regardPrefabRotation: 0
+          guiRotation: 0
+          useScale: 1
+          scaleYonly: 0
+          regardPrefabScale: 0
+          guiScale: 0
+        biomeBlend: 1
+        outputLevel: 2
+        guiMultiprefab: 0
+        guiProperties: 0
+        allowReposition: 1
+        instantiateClones: 0
+        seed: 12345
+        objHeight: 1
+        relativeHeight: 1
+        guiHeight: 0
+        useRotation: 1
+        takeTerrainNormal: 0
+        rotateYonly: 0
+        regardPrefabRotation: 0
+        guiRotation: 0
+        useScale: 1
+        scaleYonly: 0
+        regardPrefabScale: 0
+        guiScale: 0
+    - rid: 269478553117524359
+      type: {class: Adjust200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 9704196168262615045
+        version: 392
+        draftTime: 0
+        mainTime: 0.1149
+        guiPosition: {x: 71.65407, y: 557.60693}
+        guiSize: {x: 150, y: 293}
+        guiName: ADJUST
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 193
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 06000000003bac8607000000003dac86
+        serializedMissingOutletIds: 05000000003bac86
+        input:
+          id: 9704196168262615046
+          guiName: 
+        intensityIn:
+          id: 9704198367285870599
+          guiName: 
+        useRandom: 1
+        seed: 16395
+        sizeFactor: 0
+        relativeness: 1
+        offsetFront: {x: 0, y: 0}
+        offsetRight: {x: 0, y: 0}
+        height: {x: -4.31, y: -4.91}
+        rotation: {x: 0, y: 360}
+        scale: {x: 1, y: 1}
+    - rid: 269478553117524360
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: Group
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: 60.174133, y: 300.87646}
+        guiSize: {x: 190, y: 180}
+    - rid: 269478553117524361
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: Group
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: 1051.625, y: -204.67313}
+        guiSize: {x: 483.8175, y: 473.9572}
+    - rid: 269478553117524362
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: Group
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: 1941.5226, y: -125.32114}
+        guiSize: {x: 190, y: 359.40002}
+    - rid: 269478553117524368
+      type: {class: Adjust200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 16829240423460372487
+        version: 2
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 2101.4146, y: 245.03204}
+        guiSize: {x: 150, y: 273}
+        guiName: ADJUST
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 173
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0500000000798de90600000000798de9
+        serializedMissingOutletIds: 0700000000798de9
+        input:
+          id: 16829240423460372485
+          guiName: 
+        intensityIn:
+          id: 16829240423460372486
+          guiName: 
+        useRandom: 0
+        seed: 12345
+        sizeFactor: 0
+        relativeness: 1
+        offsetFront: {x: 0, y: 0}
+        offsetRight: {x: 0, y: 0}
+        height: {x: 0, y: 0}
+        rotation: {x: 0, y: 0}
+        scale: {x: 1, y: 1}
+    - rid: 269478553117524369
+      type: {class: Erosion200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 16841405420110086152
+        version: 2
+        draftTime: 0.0609
+        mainTime: 0.0679
+        guiPosition: {x: -1580.0049, y: 389.60403}
+        guiSize: {x: 100, y: 168}
+        guiName: THISISTHETESTNAMETOFINDOUTHOWITSSHORTENED
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 108
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0800000000b1b8e9
+        serializedMissingOutletIds: 0800000000b1b8e9
+        iterations: 3
+        terrainDurability: 0.9
+        erosionAmount: 1
+        sedimentAmount: 0.75
+        fluidityIterations: 3
+        relax: 0
+    - rid: 269478553117524370
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: SubGroup
+        comment: Drag in generators to group them
+        color: {r: 0.91796875, g: 0.58203125, b: 0.52734375, a: 1}
+        pinned: 0
+        guiPos: {x: -1631.2772, y: 249.07889}
+        guiSize: {x: 259.49768, y: 402.25635}
+    - rid: 269478553117524371
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: SubSubGroup
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: -893.28107, y: -81.29486}
+        guiSize: {x: 210.49484, y: 310.9724}
+    - rid: 269478553117524373
+      type: {class: Adjust200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 16906418443148853259
+        version: 3
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 2567.3225, y: -5.321167}
+        guiSize: {x: 150, y: 180}
+        guiName: ADJUST
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 173
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0900000000aa9fea0a00000000aa9fea
+        serializedMissingOutletIds: 0b00000000aa9fea
+        input:
+          id: 16906418443148853257
+          guiName: 
+        intensityIn:
+          id: 16906418443148853258
+          guiName: 
+        useRandom: 0
+        seed: 12345
+        sizeFactor: 0
+        relativeness: 1
+        offsetFront: {x: 0, y: 0}
+        offsetRight: {x: 0, y: 0}
+        height: {x: 0, y: 0}
+        rotation: {x: 0, y: 0}
+        scale: {x: 1, y: 1}
+    - rid: 269478553117524393
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: SubSubGroup
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: 428.6067, y: -1505.3411}
+        guiSize: {x: 210.49484, y: 310.9724}
+    - rid: 269478553117524406
+      type: {class: Erosion200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 18356316938906370053
+        version: 27
+        draftTime: 0.0609
+        mainTime: 0.0679
+        guiPosition: {x: -656.75543, y: -774.8563}
+        guiSize: {x: 155.8255, y: 110}
+        guiName: THISISTHETESTNAMETOFINDOUTHOWITSSHORTENED
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 108
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0500000000bdbefe
+        serializedMissingOutletIds: 0500000000bdbefe
+        iterations: 2
+        terrainDurability: 0.9
+        erosionAmount: 1
+        sedimentAmount: 0.75
+        fluidityIterations: 3
+        relax: 0
+    - rid: 269478553117524407
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: Group
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: -731.02545, y: -1007.42737}
+        guiSize: {x: 342.1574, y: 495.16528}
+    - rid: 269478553117524408
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: SubGroup
+        comment: Drag in generators to group them
+        color: {r: 0.91796875, g: 0.58203125, b: 0.52734375, a: 1}
+        pinned: 0
+        guiPos: {x: -702.3328, y: -944.02924}
+        guiSize: {x: 259.49768, y: 402.25635}
+    - rid: 269478553117524409
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: SubSubGroup
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: -679.88104, y: -864.6483}
+        guiSize: {x: 210.49484, y: 310.9724}
+    - rid: 269478809174802574
+      type: {class: Blend200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 10439660595593609224
+        version: 1
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 1580.9031, y: 203.45587}
+        guiSize: {x: 150, y: 156}
+        guiName: BLEND
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 96
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 090000000020e1900a0000000020e190
+        serializedMissingOutletIds: 080000000020e190
+        layers:
+        - id: 10439660595593609225
+          guiName: 
+          algorithm: 1
+          opacity: 1
+          guiExpanded: 0
+        - id: 10439660595593609226
+          guiName: 
+          algorithm: 1
+          opacity: 1
+          guiExpanded: 1
+    - rid: 269478809174802577
+      type: {class: Positions200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 10689258531191783436
+        version: 0
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 1260.8873, y: 513.46735}
+        guiSize: {x: 150, y: 152}
+        guiName: POSITIONS
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 92
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0c00000000e05794
+        positions:
+        - {x: 0, y: 0, z: 0}
+    - rid: 269478822266536121
+      type: {class: Noise200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 12125340563834667015
+        version: 475
+        draftTime: 0.7618
+        mainTime: 44.6181
+        guiPosition: {x: 350.54126, y: -1054.7401}
+        guiSize: {x: 150, y: 228}
+        guiName: NOISE
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 168
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames:
+          - size
+          - offset
+          typeNames:
+          - MapMagic.Nodes.MatrixGenerators.Noise200
+          - MapMagic.Nodes.MatrixGenerators.Noise200
+          serChNums: ffffffffffffffff
+          serArrIndexes: ffffffffffffffff
+          serIds: 090000000044c3400a000000002a8232
+          serGuiNames:
+          - 
+          - 
+          serGen:
+            rid: 269478822266536121
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Calculator+Vector, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Calculator+Vector, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 090000000044c3400a000000002a8232
+        serializedMissingOutletIds: 0700000000dd45a8
+        type: 2
+        seed: 11776
+        intensity: 0.65
+        size: 100
+        detail: 0.5
+        turbulence: 0
+        offset:
+          x: 908
+          z: 519
+    - rid: 269478822266536122
+      type: {class: Constant300, ns: MapMagic.Nodes.Math, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 13696850543182348296
+        version: 3210
+        draftTime: 0.003
+        mainTime: 0.0021
+        guiPosition: {x: -229.22366, y: -1136.1165}
+        guiSize: {x: 158.14484, y: 128}
+        guiName: CONSTANT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 68
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Calculator+Vector, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0800000000fd14be
+        vec:
+          x: 100
+          y: 100
+          z: 100
+          w: 100
+          uobj: {fileID: 0}
+        valType: 1
+        expose: 0
+    - rid: 269478852950753392
+      type: {class: Expression300, ns: MapMagic.Nodes.Math, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 8837742522668154887
+        version: 62
+        draftTime: 0.0135
+        mainTime: 0.011
+        guiPosition: {x: 360.5812, y: -593.1315}
+        guiSize: {x: 174.20871, y: 148}
+        guiName: EXPRESSION
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 48
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - MapMagic.Expose.Calculator+Vector, MapMagic, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0700000000f8a57a
+        expression: 100+x+something
+        error: 
+        warning: 
+        result: All okay
+        serializedInletKeys:
+        - something
+        - x
+        serializedInletValues:
+        - id: 16391528142977630233
+          guiName: something
+        - id: 16370744074677780495
+          guiName: x
+    - rid: 269478852950753395
+      type: {class: Constant300, ns: MapMagic.Nodes.Math, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 14988819586772631562
+        version: 951
+        draftTime: 1.7605
+        mainTime: 1.7602
+        guiPosition: {x: 651.3222, y: -679.37}
+        guiSize: {x: 150, y: 128}
+        guiName: INPUT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 68
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Calculator+Vector, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0a00000000fc02d0
+        vec:
+          x: 1
+          y: 1
+          z: 1
+          w: 1
+          uobj: {fileID: 180528, guid: 1dfd1c4d72020f54ab767951a2d079a9, type: 3}
+        valType: 9
+        expose: 0
+    - rid: 269478852950753400
+      type: {class: Expression300, ns: MapMagic.Nodes.Math, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 15282503540598112273
+        version: 97
+        draftTime: 0.0126
+        mainTime: 0.0099
+        guiPosition: {x: 59.19644, y: -1271.5002}
+        guiSize: {x: 170.95651, y: 128}
+        guiName: EXPRESSION
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 48
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - MapMagic.Expose.Calculator+Vector, MapMagic, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 11000000005c16d4
+        expression: s/200
+        error: 
+        warning: 
+        result: All okay
+        serializedInletKeys:
+        - s
+        serializedInletValues:
+        - id: 10174917986834448394
+          guiName: s
+    - rid: 1885265962206757937
+      type: {class: Noise200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 4622331490007515145
+        version: 15
+        draftTime: 13.8621
+        mainTime: 152.941
+        guiPosition: {x: -91.04349, y: -538.99133}
+        guiSize: {x: 149.1376, y: 228}
+        guiName: NOISE
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 168
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0900000000d22540
+        type: 2
+        seed: 12345
+        intensity: 1
+        size: 197
+        detail: 0.5
+        turbulence: 0
+        offset:
+          x: 0
+          z: 0
+    - rid: 1885265962206757938
+      type: {class: Erosion200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 4622332589519142922
+        version: 6
+        draftTime: 0.0609
+        mainTime: 0.0679
+        guiPosition: {x: -846.9073, y: 9.339661}
+        guiSize: {x: 132, y: 168}
+        guiName: THISISTHETESTNAMETOFINDOUTHOWITSSHORTENED
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 108
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0a00000000d32540
+        serializedMissingOutletIds: 0a00000000d32540
+        iterations: 5
+        terrainDurability: 0.9
+        erosionAmount: 1
+        sedimentAmount: 0.75
+        fluidityIterations: 3
+        relax: 0
+    - rid: 1885265962206757939
+      type: {class: HeightOutput200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 4622332589519142923
+        version: 12
+        draftTime: 0.0108
+        mainTime: 0.0163
+        guiPosition: {x: 879.7803, y: -1166.5892}
+        guiSize: {x: 145.04349, y: 60}
+        guiName: HEIGHT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 0
+        guiFieldHeight: 60
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes: []
+        serializedMissingInletIds: 0b00000000d32540
+        serializedMissingOutletIds: 
+        outputLevel: 3
+        guiApplyType: 0
+    - rid: 1885265962206757940
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: Group
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: -953.8561, y: -205.0537}
+        guiSize: {x: 537.7251, y: 490.20154}
+    - rid: 1885265962206757941
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: SubGroup
+        comment: Drag in generators to group them
+        color: {r: 0.91796875, g: 0.58203125, b: 0.52734375, a: 1}
+        pinned: 0
+        guiPos: {x: -926.29877, y: -140.1929}
+        guiSize: {x: 259.49768, y: 402.25635}
+    - rid: 1885265962206757942
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: SubSubGroup
+        comment: Drag in generators to group them
+        color: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+        pinned: 0
+        guiPos: {x: -1621.8059, y: 317.81766}
+        guiSize: {x: 210.49484, y: 310.9724}
+    - rid: 1885266124830932992
+      type: {class: Scatter200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 568940092769435649
+        version: 0
+        draftTime: 0.3181
+        mainTime: 0.9006
+        guiPosition: {x: -250.33684, y: 716.4045}
+        guiSize: {x: 150, y: 60}
+        guiName: SCATTER
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 0
+        guiFieldHeight: 93
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 010000000048e507
+        seed: 12345
+        density: 10
+        uniformity: 0.1
+        relax: 0.5
+        additionalMargins: 0
+    - rid: 1885266145520910336
+      type: {class: TexturesOutput200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 13561441288175222785
+        version: 96
+        draftTime: 0.4679
+        mainTime: 17.7263
+        guiPosition: {x: 455.57156, y: -130.49896}
+        guiSize: {x: 135.86072, y: 247}
+        guiName: TEXTURES
+        guiPreview: 1
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 127
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 040000000075e3c5050000000075e3c5060000000075e3c5
+        serializedMissingOutletIds: 040000000075e3c5050000000075e3c5060000000075e3c5
+        outputLevel: 3
+        layers:
+        - id: 14259369488045572100
+          guiName: 
+          channelNum: 0
+          opacity: 1
+          prototype: {fileID: 0}
+          color: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+          guiProperties: 0
+          guiRemapping: 0
+          guiTileSettings: 0
+        - id: 14259369488045572101
+          guiName: 
+          channelNum: 0
+          opacity: 1
+          prototype: {fileID: 0}
+          color: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+          guiProperties: 0
+          guiRemapping: 0
+          guiTileSettings: 0
+        - id: 14259369488045572102
+          guiName: 
+          channelNum: 0
+          opacity: 1
+          prototype: {fileID: 0}
+          color: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+          guiProperties: 0
+          guiRemapping: 0
+          guiTileSettings: 0
+        guiExpanded: -1
+    - rid: 1885266145520910337
+      type: {class: Forest200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 13595501959380467716
+        version: 3
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 790.1703, y: -180.51332}
+        guiSize: {x: 146.71301, y: 308}
+        guiName: FOREST
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 188
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0500000000edacbc0600000000edacbc0700000000edacbc
+        serializedMissingOutletIds: 0400000000edacbc
+        seedlingsIn:
+          id: 13595501959380467717
+          guiName: Seedlings
+        otherTreesIn:
+          id: 13595501959380467718
+          guiName: Other Trees
+        soilIn:
+          id: 13595501959380467719
+          guiName: Soil
+        years: 100
+        density: 10000
+        fecundity: 0.5
+        seedDist: 15
+        reproductiveAge: 10
+        survivalRate: 0.95
+        lifeAge: 100
+        sizeIsLife: 0
+        seed: 12345
+    - rid: 8859647044563239006
+      type: {class: Constant300, ns: MapMagic.Nodes.Math, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 11048517358497824777
+        version: 371
+        draftTime: 0.0003
+        mainTime: 0.0002
+        guiPosition: {x: -165.06567, y: -847.35736}
+        guiSize: {x: 150, y: 148}
+        guiName: INPUT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 88
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Calculator+Vector, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0900000000385499
+        vec:
+          x: 908
+          y: 519
+          z: 519
+          w: 0
+          uobj: {fileID: 0}
+        valType: 4
+        expose: 0
+    - rid: 8859647068518744064
+      type: {class: Positions200, ns: MapMagic.Nodes.ObjectsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 18059404818941739017
+        version: 0
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 66.99385, y: -1460.191}
+        guiSize: {x: 150, y: 152}
+        guiName: POSITIONS
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 92
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.TransitionsList, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0900000000e59ffa
+        positions:
+        - {x: 0, y: 0, z: 0}
+    - rid: 8859647068518744181
+      type: {class: Levels200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 1724340996096917511
+        version: 6
+        draftTime: 0.0239
+        mainTime: 6.3613
+        guiPosition: {x: 613.4289, y: -1071.9543}
+        guiSize: {x: 150, y: 150}
+        guiName: LEVELS
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 206
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames:
+          - inMin
+          typeNames:
+          - MapMagic.Nodes.MatrixGenerators.Levels200
+          serChNums: ffffffff
+          serArrIndexes: ffffffff
+          serIds: 070000000084293c
+          serGuiNames:
+          - 
+          serGen:
+            rid: 8859647068518744181
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Calculator+Vector, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 070000000084293c070000000017ee17
+        serializedMissingOutletIds: 070000000017ee17
+        inMin: 0.35
+        inMax: 1
+        gamma: 1
+        outMin: 0
+        outMax: 1
+        guiParams: 1
+    - rid: 8859647068518744182
+      type: {class: Pick210, ns: MapMagic.Nodes.MatrixSetsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 9798135143204913159
+        version: 2
+        draftTime: 2.4663
+        mainTime: 2.3149
+        guiPosition: {x: 938.919, y: -691.3817}
+        guiSize: {x: 150, y: 168}
+        guiName: PICK
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 108
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames:
+          - prefab
+          typeNames:
+          - MapMagic.Nodes.MatrixSetsGenerators.Pick210
+          serChNums: ffffffff
+          serArrIndexes: ffffffff
+          serIds: 0800000000f02188
+          serGuiNames:
+          - 
+          serGen:
+            rid: 8859647068518744182
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Calculator+Vector, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixSet, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0800000000f021880700000000f8f987
+        serializedMissingOutletIds: 0700000000f8f987
+        addIn:
+          id: 0
+          guiName: 
+        prototypeType: 2
+        terrainLayer: {fileID: 0}
+        texture: {fileID: 0}
+        prefab: {fileID: 180528, guid: 1dfd1c4d72020f54ab767951a2d079a9, type: 3}
+        instanceNum: 0
+        createIfNotExists: 1
+        opacity: 1
+    - rid: 8859647068518744242
+      type: {class: Pathfinding200, ns: MapMagic.Nodes.SplinesGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 14176092477357817863
+        version: 0
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 59.800323, y: -186.64682}
+        guiSize: {x: 150, y: 248}
+        guiName: PATHFINDING
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 148
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Splines.SplineSys, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Splines.SplineSys, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 080000000099bbc4090000000099bbc4
+        serializedMissingOutletIds: 070000000099bbc4
+        draftIn:
+          id: 14176092477357817864
+          guiName: 
+        heightIn:
+          id: 14176092477357817865
+          guiName: 
+        resolution: 32
+        distanceFactor: 1
+        elevationFactor: 1
+        straightenFactor: 1
+        maxElevation: 0.1
+        maxIterations: 1000000
+        weldEndpoints: 1

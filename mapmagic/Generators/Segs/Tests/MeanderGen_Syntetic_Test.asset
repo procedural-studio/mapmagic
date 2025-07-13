@@ -1,0 +1,1126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b87197ec1e01c4a984713d8a8aebd4, type: 3}
+  m_Name: MeanderGen_Syntetic_Test
+  m_EditorClassIdentifier: 
+  genTypeName: MapMagic.Nodes.SegsGenerators.MeanderGen
+  genTypeValid: 1
+  generator:
+    rid: 1493498034860589117
+  area:
+    active:
+      rect:
+        offset:
+          x: 0
+          z: 0
+        size:
+          x: 513
+          z: 513
+      worldPos:
+        x: 0
+        z: 0
+      worldSize:
+        x: 100
+        z: 100
+    full:
+      rect:
+        offset:
+          x: -16
+          z: -16
+        size:
+          x: 545
+          z: 545
+      worldPos:
+        x: -3.125
+        z: -3.125
+      worldSize:
+        x: 106.25
+        z: 106.25
+  height: 250
+  seed: 12345
+  inputs:
+  - name: Input
+    typeName: Den.Tools.Lines.LineSys
+    methodChangesObject: 0
+    gizmo:
+      guiExpanded: 1
+      enabled: 1
+      selectedObject: {fileID: 11400000}
+      edit: 1
+      name: Input
+      mode: 0
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 5, y: 0.1, z: 5}
+      color: {r: 1, g: 0, b: 0, a: 1}
+      undoObject: {fileID: 11400000}
+    guiExpanded: 1
+    serObj:
+      serObj:
+        rid: 1493498034860589119
+      serType: Den.Tools.Lines.LineSys
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  results:
+  - name: Output
+    typeName: Den.Tools.Lines.LineSys
+    methodChangesObject: 0
+    gizmo:
+      guiExpanded: 0
+      enabled: 1
+      selectedObject: {fileID: 11400000}
+      edit: 0
+      name: Output
+      mode: 1
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 5, y: 5, z: 5}
+      color: {r: 0.09317112, g: 1, b: 0, a: 1}
+      undoObject: {fileID: 11400000}
+    guiExpanded: 1
+    serObj:
+      serObj:
+        rid: 1493498103108993601
+      serType: Den.Tools.Lines.LineSys
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  - name: oxbows
+    typeName: Den.Tools.Lines.LineSys
+    methodChangesObject: 0
+    gizmo:
+      guiExpanded: 0
+      enabled: 1
+      selectedObject: {fileID: 11400000}
+      edit: 0
+      name: oxbows
+      mode: 2
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 5, y: 5, z: 5}
+      color: {r: 1, g: 0.008950837, b: 0, a: 1}
+      undoObject: {fileID: 11400000}
+    guiExpanded: 1
+    serObj:
+      serObj:
+        rid: 1493498103108993602
+      serType: Den.Tools.Lines.LineSys
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  - name: 
+    typeName: 
+    methodChangesObject: 0
+    gizmo:
+      guiExpanded: 0
+      enabled: 0
+      selectedObject: {fileID: 0}
+      edit: 0
+      name: 
+      mode: 0
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 5, y: 5, z: 5}
+      color: {r: 1, g: 0.5, b: 0, a: 1}
+      undoObject: {fileID: 0}
+    guiExpanded: 0
+    serObj:
+      serObj:
+        rid: -2
+      serType: 
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  updateOnValueChange: 1
+  updateOnSceneChange: 0
+  guiInputsExpanded: 1
+  guiGenExpanded: 0
+  guiResultsExpanded: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1493498034860589117
+      type: {class: MeanderGen, ns: MapMagic.Nodes.SegsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 12801448955451801601
+        version: 1932
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 0, y: 0}
+        guiSize: {x: 0, y: 0}
+        guiName: 
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 100
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Lines.LineSys, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Lines.LineSys, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Lines.LineSys, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0100000000e2a7b1
+        serializedMissingOutletIds: 0100000000e2a7b10100000000c80dfb0200000000c90dfb
+        iterations: 34
+        subdivideDist: 10
+        inertia: 0.12
+        initialRandomize: 0.5
+        seed: 12345
+        oxbowsOut:
+          id: 18090335180542705665
+          guiName: 
+        stampMaskOut:
+          id: 18090336280054333442
+          guiName: 
+    - rid: 1493498034860589119
+      type: {class: LineSys, ns: Den.Tools.Lines, asm: Den.Tools.Native}
+      data:
+        lines:
+        - nodes:
+          - x: 23
+            y: 0
+            z: 177
+          - x: 155
+            y: 0
+            z: 343
+          - x: 573
+            y: 0
+            z: 363
+          - x: 780
+            y: 0
+            z: 694
+          count: 2
+          guiExpanded: 0
+        guiExpanded: 0
+    - rid: 1493498103108993601
+      type: {class: LineSys, ns: Den.Tools.Lines, asm: Den.Tools.Native}
+      data:
+        lines:
+        - nodes:
+          - x: 23
+            y: 0
+            z: 177
+          - x: 28.988947
+            y: 0
+            z: 184.55424
+          - x: 32.226593
+            y: 0
+            z: 188.68286
+          - x: 35.533257
+            y: 0
+            z: 193.28287
+          - x: 37.974262
+            y: 0
+            z: 198.02339
+          - x: 39.888435
+            y: 0
+            z: 204.6353
+          - x: 41.521694
+            y: 0
+            z: 210.56174
+          - x: 47.189484
+            y: 0
+            z: 216.78146
+          - x: 54.83724
+            y: 0
+            z: 217.59348
+          - x: 58.864613
+            y: 0
+            z: 217.34856
+          - x: 63.99745
+            y: 0
+            z: 224.39098
+          - x: 62.575844
+            y: 0
+            z: 231.89932
+          - x: 62.11894
+            y: 0
+            z: 234.46646
+          - x: 64.953926
+            y: 0
+            z: 239.84991
+          - x: 66.78571
+            y: 0
+            z: 243.19446
+          - x: 68.75944
+            y: 0
+            z: 248.11407
+          - x: 76.60747
+            y: 0
+            z: 251.85796
+          - x: 81.37904
+            y: 0
+            z: 248.55893
+          - x: 85.07028
+            y: 0
+            z: 244.9988
+          - x: 87.56424
+            y: 0
+            z: 236.67567
+          - x: 87.226715
+            y: 0
+            z: 232.35141
+          - x: 94.800835
+            y: 0
+            z: 227.26901
+          - x: 101.85865
+            y: 0
+            z: 234.0297
+          - x: 102.01292
+            y: 0
+            z: 241.2986
+          - x: 98.80648
+            y: 0
+            z: 249.07314
+          - x: 93.967834
+            y: 0
+            z: 253.30392
+          - x: 89.694786
+            y: 0
+            z: 256.03024
+          - x: 85.499756
+            y: 0
+            z: 259.34335
+          - x: 80.49906
+            y: 0
+            z: 264.78183
+          - x: 80.07402
+            y: 0
+            z: 271.07718
+          - x: 85.19597
+            y: 0
+            z: 276.67407
+          - x: 92.65568
+            y: 0
+            z: 277.48138
+          - x: 98.61372
+            y: 0
+            z: 274.91452
+          - x: 105.44921
+            y: 0
+            z: 269.6941
+          - x: 107.20876
+            y: 0
+            z: 265.84656
+          - x: 112.20301
+            y: 0
+            z: 262.28934
+          - x: 117.14609
+            y: 0
+            z: 265.98282
+          - x: 119.89226
+            y: 0
+            z: 270.89142
+          - x: 118.3333
+            y: 0
+            z: 280.56223
+          - x: 111.9382
+            y: 0
+            z: 286.13107
+          - x: 108.6848
+            y: 0
+            z: 287.5815
+          - x: 108.41304
+            y: 0
+            z: 294.9663
+          - x: 115.27031
+            y: 0
+            z: 298.33514
+          - x: 121.08655
+            y: 0
+            z: 298.12488
+          - x: 127.94182
+            y: 0
+            z: 295.2354
+          - x: 133.83127
+            y: 0
+            z: 292.6095
+          - x: 139.40141
+            y: 0
+            z: 295.24854
+          - x: 141.8818
+            y: 0
+            z: 301.57196
+          - x: 140.88998
+            y: 0
+            z: 310.0057
+          - x: 136.57176
+            y: 0
+            z: 315.63956
+          - x: 128.73077
+            y: 0
+            z: 321.82352
+          - x: 122.99029
+            y: 0
+            z: 324.32965
+          - x: 116.80178
+            y: 0
+            z: 329.09512
+          - x: 117.57758
+            y: 0
+            z: 337.12857
+          - x: 124.81144
+            y: 0
+            z: 341.57037
+          - x: 134.41707
+            y: 0
+            z: 341.814
+          - x: 143.00809
+            y: 0
+            z: 338.66943
+          - x: 148.33069
+            y: 0
+            z: 334.5404
+          - x: 152.52238
+            y: 0
+            z: 330.80505
+          - x: 156.1799
+            y: 0
+            z: 328.14188
+          - x: 163.13821
+            y: 0
+            z: 324.48575
+          - x: 171.40602
+            y: 0
+            z: 323.94812
+          - x: 176.16731
+            y: 0
+            z: 328.54553
+          - x: 177.96413
+            y: 0
+            z: 333.941
+          - x: 177.50969
+            y: 0
+            z: 343.04788
+          - x: 174.90778
+            y: 0
+            z: 347.6089
+          - x: 177.48605
+            y: 0
+            z: 351.94586
+          - x: 186.75438
+            y: 0
+            z: 351.3503
+          - x: 190.31863
+            y: 0
+            z: 346.53098
+          - x: 193.02856
+            y: 0
+            z: 342.1719
+          - x: 194.89365
+            y: 0
+            z: 337.15915
+          - x: 201.04224
+            y: 0
+            z: 337.39563
+          - x: 209.21346
+            y: 0
+            z: 342.73306
+          - x: 212.07266
+            y: 0
+            z: 340.76904
+          - x: 217.16295
+            y: 0
+            z: 334.19016
+          - x: 222.25626
+            y: 0
+            z: 334.21732
+          - x: 227.01973
+            y: 0
+            z: 338.1184
+          - x: 232.49464
+            y: 0
+            z: 340.8403
+          - x: 237.54082
+            y: 0
+            z: 340.1759
+          - x: 242.64789
+            y: 0
+            z: 340.90372
+          - x: 245.68576
+            y: 0
+            z: 345.36844
+          - x: 247.26567
+            y: 0
+            z: 350.30127
+          - x: 247.62903
+            y: 0
+            z: 355.53104
+          - x: 252.35718
+            y: 0
+            z: 357.15814
+          - x: 258.8725
+            y: 0
+            z: 351.3746
+          - x: 263.75104
+            y: 0
+            z: 350.02737
+          - x: 268.36148
+            y: 0
+            z: 358.36087
+          - x: 265.25122
+            y: 0
+            z: 365.87634
+          - x: 265.0845
+            y: 0
+            z: 369.98364
+          - x: 273.46344
+            y: 0
+            z: 373.4901
+          - x: 280.21136
+            y: 0
+            z: 368.7763
+          - x: 283.07364
+            y: 0
+            z: 364.08575
+          - x: 287.17615
+            y: 0
+            z: 356.58798
+          - x: 288.16562
+            y: 0
+            z: 350.35657
+          - x: 287.89673
+            y: 0
+            z: 345.92987
+          - x: 291.09705
+            y: 0
+            z: 339.7277
+          - x: 298.4506
+            y: 0
+            z: 338.22244
+          - x: 304.24545
+            y: 0
+            z: 340.82346
+          - x: 308.43384
+            y: 0
+            z: 344.0786
+          - x: 312.4055
+            y: 0
+            z: 347.12814
+          - x: 317.65762
+            y: 0
+            z: 349.9042
+          - x: 325.2375
+            y: 0
+            z: 348.04526
+          - x: 334.1653
+            y: 0
+            z: 345.95462
+          - x: 337.54282
+            y: 0
+            z: 350.69318
+          - x: 338.23602
+            y: 0
+            z: 357.79236
+          - x: 344.27563
+            y: 0
+            z: 363.02405
+          - x: 351.79474
+            y: 0
+            z: 359.5871
+          - x: 356.51193
+            y: 0
+            z: 354.75876
+          - x: 362.86148
+            y: 0
+            z: 349.94266
+          - x: 369.50882
+            y: 0
+            z: 347.42725
+          - x: 376.25583
+            y: 0
+            z: 351.5594
+          - x: 379.0446
+            y: 0
+            z: 358.2282
+          - x: 386.25034
+            y: 0
+            z: 359.83246
+          - x: 394.10812
+            y: 0
+            z: 359.7715
+          - x: 396.0874
+            y: 0
+            z: 368.4069
+          - x: 405.3552
+            y: 0
+            z: 366.79572
+          - x: 407.44345
+            y: 0
+            z: 358.833
+          - x: 408.45508
+            y: 0
+            z: 354.62207
+          - x: 413.4472
+            y: 0
+            z: 354.56604
+          - x: 418.41565
+            y: 0
+            z: 355.67908
+          - x: 426.2561
+            y: 0
+            z: 349.7795
+          - x: 429.15677
+            y: 0
+            z: 340.7326
+          - x: 437.87555
+            y: 0
+            z: 340.33344
+          - x: 443.12476
+            y: 0
+            z: 346.48505
+          - x: 445.14896
+            y: 0
+            z: 354.96393
+          - x: 443.76282
+            y: 0
+            z: 363.28564
+          - x: 442.37985
+            y: 0
+            z: 366.87643
+          - x: 447.28995
+            y: 0
+            z: 371.45724
+          - x: 452.7035
+            y: 0
+            z: 369.12885
+          - x: 456.9848
+            y: 0
+            z: 366.24988
+          - x: 460.10947
+            y: 0
+            z: 357.29688
+          - x: 458.6424
+            y: 0
+            z: 353.80905
+          - x: 463.31882
+            y: 0
+            z: 349.08972
+          - x: 473.08392
+            y: 0
+            z: 350.22192
+          - x: 477.90338
+            y: 0
+            z: 353.69373
+          - x: 482.6134
+            y: 0
+            z: 358.12064
+          - x: 484.54053
+            y: 0
+            z: 366.94366
+          - x: 479.12604
+            y: 0
+            z: 375.51465
+          - x: 487.18835
+            y: 0
+            z: 380.858
+          - x: 495.49393
+            y: 0
+            z: 374.6359
+          - x: 497.12408
+            y: 0
+            z: 366.17453
+          - x: 495.58243
+            y: 0
+            z: 357.3654
+          - x: 493.0739
+            y: 0
+            z: 352.33902
+          - x: 491.17056
+            y: 0
+            z: 349.4927
+          - x: 492.66507
+            y: 0
+            z: 344.07663
+          - x: 500.97983
+            y: 0
+            z: 341.42432
+          - x: 506.1303
+            y: 0
+            z: 344.46664
+          - x: 510.39563
+            y: 0
+            z: 347.50885
+          - x: 514.1226
+            y: 0
+            z: 356.2084
+          - x: 512.00476
+            y: 0
+            z: 364.0136
+          - x: 511.34604
+            y: 0
+            z: 368.9932
+          - x: 519.96564
+            y: 0
+            z: 371.24698
+          - x: 527.0009
+            y: 0
+            z: 362.77103
+          - x: 527.5939
+            y: 0
+            z: 355.93173
+          - x: 533.7658
+            y: 0
+            z: 356.7109
+          - x: 541.33014
+            y: 0
+            z: 359.42755
+          - x: 544.4797
+            y: 0
+            z: 350.25775
+          - x: 538.2209
+            y: 0
+            z: 343.85678
+          - x: 533.9146
+            y: 0
+            z: 339.1114
+          - x: 538.1946
+            y: 0
+            z: 331.81277
+          - x: 548.0777
+            y: 0
+            z: 331.7459
+          - x: 552.7735
+            y: 0
+            z: 335.9065
+          - x: 556.3055
+            y: 0
+            z: 339.3705
+          - x: 559.1474
+            y: 0
+            z: 343.98413
+          - x: 561.1334
+            y: 0
+            z: 348.72125
+          - x: 562.5185
+            y: 0
+            z: 356.4356
+          - x: 563.2426
+            y: 0
+            z: 364.14697
+          - x: 566.6763
+            y: 0
+            z: 372.09967
+          - x: 571.03064
+            y: 0
+            z: 376.18124
+          - x: 574.6035
+            y: 0
+            z: 380.4727
+          - x: 577.48004
+            y: 0
+            z: 384.83325
+          - x: 585.30835
+            y: 0
+            z: 387.55078
+          - x: 591.97955
+            y: 0
+            z: 382.59567
+          - x: 594.1031
+            y: 0
+            z: 376.76645
+          - x: 594.52783
+            y: 0
+            z: 372.9126
+          - x: 599.7692
+            y: 0
+            z: 369.07846
+          - x: 607.66614
+            y: 0
+            z: 375.02765
+          - x: 607.4478
+            y: 0
+            z: 383.9886
+          - x: 602.6666
+            y: 0
+            z: 392.49622
+          - x: 595.948
+            y: 0
+            z: 397.81436
+          - x: 590.1604
+            y: 0
+            z: 401.962
+          - x: 589.4173
+            y: 0
+            z: 407.71924
+          - x: 594.08435
+            y: 0
+            z: 413.2048
+          - x: 603.36786
+            y: 0
+            z: 415.0342
+          - x: 610.942
+            y: 0
+            z: 410.60956
+          - x: 614.74774
+            y: 0
+            z: 405.68146
+          - x: 623.7598
+            y: 0
+            z: 407.59122
+          - x: 623.4324
+            y: 0
+            z: 417.5128
+          - x: 618.0669
+            y: 0
+            z: 422.21796
+          - x: 611.0358
+            y: 0
+            z: 424.8751
+          - x: 602.09656
+            y: 0
+            z: 425.67642
+          - x: 597.8864
+            y: 0
+            z: 424.32635
+          - x: 593.23444
+            y: 0
+            z: 426.1965
+          - x: 593.2862
+            y: 0
+            z: 432.80396
+          - x: 596.41345
+            y: 0
+            z: 437.7874
+          - x: 601.32623
+            y: 0
+            z: 440.05566
+          - x: 606.2231
+            y: 0
+            z: 441.35663
+          - x: 613.02246
+            y: 0
+            z: 440.02307
+          - x: 619.14716
+            y: 0
+            z: 437.2877
+          - x: 624.1623
+            y: 0
+            z: 435.50317
+          - x: 632.47986
+            y: 0
+            z: 435.9059
+          - x: 638.2793
+            y: 0
+            z: 443.74646
+          - x: 635.2562
+            y: 0
+            z: 453.33768
+          - x: 629.7494
+            y: 0
+            z: 456.78622
+          - x: 627.95667
+            y: 0
+            z: 461.2779
+          - x: 635.31946
+            y: 0
+            z: 468.49268
+          - x: 642.3741
+            y: 0
+            z: 467.81183
+          - x: 645.0185
+            y: 0
+            z: 473.73157
+          - x: 638.8657
+            y: 0
+            z: 480.5473
+          - x: 643.26044
+            y: 0
+            z: 487.32556
+          - x: 652.379
+            y: 0
+            z: 484.94775
+          - x: 656.1337
+            y: 0
+            z: 482.66727
+          - x: 660.62286
+            y: 0
+            z: 489.29657
+          - x: 657.31305
+            y: 0
+            z: 494.49664
+          - x: 653.78955
+            y: 0
+            z: 498.3229
+          - x: 644.7762
+            y: 0
+            z: 501.45395
+          - x: 640.35565
+            y: 0
+            z: 503.34216
+          - x: 642.7464
+            y: 0
+            z: 511.55072
+          - x: 653.3126
+            y: 0
+            z: 513.3296
+          - x: 655.80023
+            y: 0
+            z: 521.04895
+          - x: 651.08466
+            y: 0
+            z: 528.6329
+          - x: 652.70746
+            y: 0
+            z: 537.0741
+          - x: 661.6217
+            y: 0
+            z: 540.83093
+          - x: 671.06726
+            y: 0
+            z: 538.77435
+          - x: 676.5498
+            y: 0
+            z: 534.6671
+          - x: 681.6329
+            y: 0
+            z: 529.7215
+          - x: 685.2866
+            y: 0
+            z: 526.30817
+          - x: 693.003
+            y: 0
+            z: 523.84204
+          - x: 697.56616
+            y: 0
+            z: 527.70184
+          - x: 700.27826
+            y: 0
+            z: 532.30554
+          - x: 699.62036
+            y: 0
+            z: 537.4471
+          - x: 698.39594
+            y: 0
+            z: 542.3456
+          - x: 693.05396
+            y: 0
+            z: 547.04395
+          - x: 688.58496
+            y: 0
+            z: 549.38727
+          - x: 683.109
+            y: 0
+            z: 552.3376
+          - x: 677.6949
+            y: 0
+            z: 555.4468
+          - x: 675.95386
+            y: 0
+            z: 562.5986
+          - x: 680.2535
+            y: 0
+            z: 566.35223
+          - x: 684.62146
+            y: 0
+            z: 568.9783
+          - x: 691.94275
+            y: 0
+            z: 567.979
+          - x: 696.667
+            y: 0
+            z: 565.5395
+          - x: 701.9206
+            y: 0
+            z: 562.09937
+          - x: 705.61304
+            y: 0
+            z: 558.401
+          - x: 710.0136
+            y: 0
+            z: 554.8619
+          - x: 716.54596
+            y: 0
+            z: 555.17737
+          - x: 721.7201
+            y: 0
+            z: 561.836
+          - x: 721.2668
+            y: 0
+            z: 570.9426
+          - x: 716.8704
+            y: 0
+            z: 577.0894
+          - x: 711.8414
+            y: 0
+            z: 580.67395
+          - x: 707.98193
+            y: 0
+            z: 583.4511
+          - x: 703.8022
+            y: 0
+            z: 589.6914
+          - x: 703.10034
+            y: 0
+            z: 595.71844
+          - x: 703.67096
+            y: 0
+            z: 603.2066
+          - x: 706.7327
+            y: 0
+            z: 612.7446
+          - x: 713.24243
+            y: 0
+            z: 616.2309
+          - x: 719.85913
+            y: 0
+            z: 614.9896
+          - x: 725.4481
+            y: 0
+            z: 611.3852
+          - x: 730.53107
+            y: 0
+            z: 609.66
+          - x: 734.85986
+            y: 0
+            z: 612.9136
+          - x: 737.7571
+            y: 0
+            z: 617.33636
+          - x: 738.9624
+            y: 0
+            z: 624.9131
+          - x: 743.7154
+            y: 0
+            z: 629.532
+          - x: 748.89575
+            y: 0
+            z: 627.22345
+          - x: 753.1342
+            y: 0
+            z: 624.1611
+          - x: 754.14294
+            y: 0
+            z: 620.57465
+          - x: 760.01996
+            y: 0
+            z: 622.78613
+          - x: 761.13605
+            y: 0
+            z: 633.0385
+          - x: 756.06085
+            y: 0
+            z: 639.003
+          - x: 750.1718
+            y: 0
+            z: 643.55725
+          - x: 745.7577
+            y: 0
+            z: 646.95197
+          - x: 743.9099
+            y: 0
+            z: 652.24817
+          - x: 748.9065
+            y: 0
+            z: 659.63745
+          - x: 759.0066
+            y: 0
+            z: 661.36584
+          - x: 765.4182
+            y: 0
+            z: 660.3397
+          - x: 773.1596
+            y: 0
+            z: 665.62537
+          - x: 774.92596
+            y: 0
+            z: 671.1694
+          - x: 782.3314
+            y: 0
+            z: 673.8772
+          - x: 788.26514
+            y: 0
+            z: 672.20734
+          - x: 792.11707
+            y: 0
+            z: 680.00134
+          - x: 786.5855
+            y: 0
+            z: 685.4414
+          - x: 781.2058
+            y: 0
+            z: 687.6305
+          - x: 780
+            y: 0
+            z: 694
+          count: 282
+          guiExpanded: 0
+        guiExpanded: 0
+    - rid: 1493498103108993602
+      type: {class: LineSys, ns: Den.Tools.Lines, asm: Den.Tools.Native}
+      data:
+        lines: []
+        guiExpanded: 0

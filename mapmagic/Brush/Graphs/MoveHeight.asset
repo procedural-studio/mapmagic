@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
+  m_Name: MoveHeight
+  m_EditorClassIdentifier: 
+  generators:
+  - rid: 269478809174802673
+  - rid: 269478809174802674
+  - rid: 269478809174802675
+  - rid: 269478809174802676
+  groups: []
+  exposed:
+    serEntries:
+    - id: 3695904982676013061
+      name: position
+      channel: -1
+      arrIndex: -1
+      expression: Position
+      serType: Den.Tools.Vector2D, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    - id: 3695904982676013061
+      name: radius
+      channel: -1
+      arrIndex: -1
+      expression: Radius
+      serType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - id: 3695904982676013061
+      name: hardness
+      channel: -1
+      arrIndex: -1
+      expression: Hardness
+      serType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - id: 18058173365918629893
+      name: position
+      channel: -1
+      arrIndex: -1
+      expression: Position
+      serType: Den.Tools.Vector2D, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    - id: 18058173365918629893
+      name: radius
+      channel: -1
+      arrIndex: -1
+      expression: Radius
+      serType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - id: 18058173365918629893
+      name: hardness
+      channel: -1
+      arrIndex: -1
+      expression: Hardness
+      serType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - id: 18096404484728029190
+      name: offset
+      channel: -1
+      arrIndex: -1
+      expression: Direction
+      serType: Den.Tools.Vector2D, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  defaults:
+    serializedDict: "< \"root\", \"Den.Tools.DictionaryOrdered`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], Den.Tools.Unity\",
+      id1,\r\n  < \"dict\", \"System.Collections.Generic.Dictionary`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id2,\r\n   
+      < \"_buckets\", \"System.Int32[], mscorlib\", id3 ,0,0,0,1,4,2,0 >,\r\n   
+      < \"_entries\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]][], mscorlib\", id4,\r\n     
+      < \"0\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String, mscorlib],[MapMagic.Expose.Override+ObjType,
+      MapMagic]], mscorlib\", id0,\r\n        < \"hashCode\", System.Int32, id0,
+      242105489 >,\r\n        < \"next\", System.Int32, id0, -1 >,\r\n        < \"key\",
+      System.String, id5, \"Position\" >,\r\n        < \"value\", \"MapMagic.Expose.Override+ObjType,
+      MapMagic\", id0,\r\n          < \"obj\", \"Den.Tools.Vector2D, Den.Tools.Native\",
+      id0,\r\n            < \"x\", System.Single, id0, 0 >,\r\n            < \"z\",
+      System.Single, id0, 0 > >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"1\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 1346871132 >,\r\n        < \"next\", System.Int32,
+      id0, -1 >,\r\n        < \"key\", System.String, id6, \"Radius\" >,\r\n       
+      < \"value\", \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n         
+      < \"obj\", System.Single, id0, 30 >,\r\n          < \"type\", \"System.RuntimeType,
+      mscorlib\", id7, \"System.Single, mscorlib\" > > >,\r\n      < \"2\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 651638992 >,\r\n        < \"next\", System.Int32,
+      id0, -1 >,\r\n        < \"key\", System.String, id8, \"Hardness\" >,\r\n       
+      < \"value\", \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n         
+      < \"obj\", System.Single, id0, 0.5 >,\r\n          < \"type\", \"System.RuntimeType,
+      mscorlib\", id7 > > >,\r\n      < \"3\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 652215505 >,\r\n        < \"next\", System.Int32,
+      id0, 2 >,\r\n        < \"key\", System.String, id9, \"Direction\" >,\r\n       
+      < \"value\", \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n         
+      < \"obj\", \"Den.Tools.Vector2D, Den.Tools.Native\", id0,\r\n            <
+      \"x\", System.Single, id0, 10 >,\r\n            < \"z\", System.Single, id0,
+      10 > >,\r\n          < \"type\", System.Object, id0, null > > >,\r\n      <
+      \"4\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String, mscorlib],[MapMagic.Expose.Override+ObjType,
+      MapMagic]], mscorlib\", id0,\r\n        < \"hashCode\", System.Int32, id0,
+      0 >,\r\n        < \"next\", System.Int32, id0, 0 >,\r\n        < \"key\", System.Object,
+      id0, null >,\r\n        < \"value\", \"MapMagic.Expose.Override+ObjType, MapMagic\",
+      id0,\r\n          < \"obj\", System.Object, id0, null >,\r\n          < \"type\",
+      System.Object, id0, null > > >,\r\n      < \"5\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 0 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"6\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 0 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > > >,\r\n    < \"_count\", System.Int32, id0, 4 >,\r\n    < \"_comparer\",
+      System.Object, id0, null >,\r\n    < \"_version\", System.Int32, id0, 4 > >,\r\n 
+      < \"order\", \"System.Collections.Generic.List`1[[System.String, mscorlib]],
+      mscorlib\", id10,\r\n    < \"_items\", \"System.String[], mscorlib\", id11,\r\n     
+      < \"0\", \"System.String, mscorlib\", id5 >,\r\n      < \"1\", \"System.String,
+      mscorlib\", id6 >,\r\n      < \"2\", \"System.String, mscorlib\", id8 >,\r\n     
+      < \"3\", \"System.String, mscorlib\", id9 > >,\r\n    < \"_size\", System.Int32,
+      id0, 4 >,\r\n    < \"_version\", System.Int32, id0, 4 > > >"
+    unityObjects: []
+  guiScroll: {x: 0, y: 0}
+  guiZoomStage: 1
+  guiShowDependent: 0
+  guiShowShared: 0
+  guiShowExposed: 1
+  guiShowDebug: 0
+  guiShowColors: 0
+  guiMiniPos: {x: 20, y: 20}
+  guiMiniAnchor: {x: 0, y: 0}
+  debugName: 
+  debugGenerate: 1
+  debugGenInfo: 0
+  debugGraphBackground: 1
+  debugGraphBackColor: 0.5
+  debugGraphFps: 1
+  drawInSceneView: 0
+  saveChanges: 1
+  debugDrawPortalLinks: 0
+  debugDrawMousePosition: 1
+  assetName: MoveHeight
+  serializedVersion:
+    major: 3
+    minor: 0
+    prt: 4
+    patch: 0
+  serializedGeneratorIds300: 25000000000b2f792a000000000b2f790500000000859bfa0100000000b56acb
+  serializedInlets300: 
+  serializedOutlets300: 
+  serializedNoiseSeed: 12345
+  serializedNoisePermutation: 32768
+  serializer200beta:
+    serializedData: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 269478809174802673
+      type: {class: BrushReadHeight206, ns: MapMagic.Brush, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 8732210297122586661
+        version: 0
+        draftTime: 0
+        mainTime: 0.0021
+        guiPosition: {x: -263.1111, y: -99.55556}
+        guiSize: {x: 150, y: 68}
+        guiName: HEIGHT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 8
+        guiAdvancedHeight: 40
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 25000000000b2f79
+    - rid: 269478809174802674
+      type: {class: BrushWriteHeight206, ns: MapMagic.Brush, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 8732210297122586666
+        version: 0
+        draftTime: 0
+        mainTime: 0.0013
+        guiPosition: {x: 202, y: -92}
+        guiSize: {x: 150, y: 68}
+        guiName: HEIGHT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 8
+        guiAdvancedHeight: 40
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes: []
+        serializedMissingInletIds: 2a000000000b2f79
+        serializedMissingOutletIds: 
+    - rid: 269478809174802675
+      type: {class: Spot210, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 18058173365918629893
+        version: 0
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: -250, y: -22}
+        guiSize: {x: 150, y: 168}
+        guiName: SPOT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 108
+        guiAdvancedHeight: 40
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0500000000859bfa
+        intensity: 1
+        position:
+          x: 0
+          z: 0
+        radius: 30
+        hardness: 0.5
+    - rid: 269478809174802676
+      type: {class: Placeholders/InletOutletPlaceholder, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 14657726948835328001
+        version: 0
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 0, y: 0}
+        guiSize: {x: 150, y: 148}
+        guiName: UNKNOWN
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 88
+        guiAdvancedHeight: 40
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        serializedMissingOutletTypes:
+        - System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        serializedMissingInletIds: 0100000000b56acb
+        serializedMissingOutletIds: 0100000000b56acb
+        origType: 

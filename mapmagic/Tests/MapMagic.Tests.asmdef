@@ -1,0 +1,27 @@
+{
+    "name": "MapMagic.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:10c2c8b9f42fe8c43bbe8dae22545979",
+        "GUID:b38a76144b6f25449ad861250a572252",
+        "GUID:92e3b62f055d5d441828b35f56b6a3a2",
+        "GUID:f916027ffe7a29c4dbc7d2ba84359bf4",
+        "GUID:6ae3db819e0d8ab47bd0d57c99dbf2c6",
+        "GUID:6773fc94c47d0c941b246eb4f3a1e4ee",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

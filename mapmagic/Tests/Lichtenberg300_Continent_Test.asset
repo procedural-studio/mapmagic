@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b87197ec1e01c4a984713d8a8aebd4, type: 3}
+  m_Name: Lichtenberg300_Continent_Test
+  m_EditorClassIdentifier: 
+  genTypeName: 
+  genTypeValid: 0
+  generator:
+    rid: -2
+  area:
+    active:
+      rect:
+        offset:
+          x: 0
+          z: 0
+        size:
+          x: 513
+          z: 513
+      worldPos:
+        x: 0
+        z: 0
+      worldSize:
+        x: 1000
+        z: 1000
+    full:
+      rect:
+        offset:
+          x: -32
+          z: -32
+        size:
+          x: 577
+          z: 577
+      worldPos:
+        x: -62.5
+        z: -62.5
+      worldSize:
+        x: 1125
+        z: 1125
+  height: 200
+  seed: 12345
+  inputs: []
+  results: []
+  updateOnValueChange: 0
+  updateOnSceneChange: 0
+  guiInputsExpanded: 0
+  guiGenExpanded: 0
+  guiResultsExpanded: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

@@ -1,0 +1,488 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
+  m_Name: Deleteme1
+  m_EditorClassIdentifier: 
+  generators:
+  - rid: 1493498103108993447
+  - rid: 1493498103108993451
+  - rid: 1493498103108993454
+  - rid: 1493498103108993455
+  groups: []
+  guiScroll: {x: -3.2605438, y: -42.167603}
+  guiZoomStage: 0
+  guiShowDependent: 0
+  guiShowShared: 0
+  guiShowExposed: 0
+  guiShowDebug: 0
+  guiShowColors: 0
+  guiMiniPos: {x: 20, y: 20}
+  guiMiniAnchor: {x: 0, y: 0}
+  debugName: 
+  debugGenerate: 1
+  debugGenInfo: 0
+  debugGraphBackground: 1
+  debugGraphBackColor: 0.5
+  debugGraphFps: 1
+  drawInSceneView: 0
+  saveChanges: 1
+  debugDrawPortalLinks: 0
+  debugDrawMousePosition: 1
+  assetName: Deleteme1
+  serializedVersion:
+    major: 3
+    minor: 0
+    prt: 4
+    patch: 0
+  serializedGeneratorIds300: 060000000016e76c0a00000000a5eb6d0f00000000fdc973100000000015938d
+  serializedInlets300: 0a00000000a5eb6d
+  serializedOutlets300: 060000000016e76c
+  serializedNoiseSeed: 12345
+  serializedNoisePermutation: 32768
+  serializer200beta:
+    serializedData: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1493498103108993447
+      type: {class: SimpleForm200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 7847265064972189702
+        version: 2
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 17.033272, y: 254.28339}
+        guiSize: {x: 125.86658, y: 329.86658}
+        guiName: SIMPLE FORM
+        guiPreview: 1
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 148
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 060000000016e76c
+        type: 0
+        intensity: 1
+        scale: 3
+        ratio: 1
+        offset: {x: 0, y: 0}
+        wrap: 1
+        drawOffsetScaleGizmo: 0
+    - rid: 1493498103108993451
+      type: {class: Curve200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 7920605789079732234
+        version: 151
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 257.99973, y: 272.28937}
+        guiSize: {x: 150, y: 214}
+        guiName: CURVE
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 158
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0a00000000a5eb6d
+        serializedMissingOutletIds: 0a00000000a5eb6d
+        curve:
+          points:
+          - pos: {x: 0, y: 0}
+            inTangent: 0
+            outTangent: 8.300584
+            linear: 1
+          - pos: {x: 0.18617457, y: 0.9877383}
+            inTangent: 2.3102987
+            outTangent: 2.3102987
+            linear: 0
+          - pos: {x: 0.79274327, y: 0.9937439}
+            inTangent: -2.0706377
+            outTangent: -2.0706377
+            linear: 0
+          - pos: {x: 1, y: 0}
+            inTangent: -11.899793
+            outTangent: 0
+            linear: 1
+          lut:
+          - 0
+          - 0.0323039
+          - 0.06411298
+          - 0.09542724
+          - 0.12624668
+          - 0.15657131
+          - 0.18640111
+          - 0.21573609
+          - 0.24457626
+          - 0.27292162
+          - 0.3007721
+          - 0.32812783
+          - 0.35498875
+          - 0.38135478
+          - 0.407226
+          - 0.43260244
+          - 0.45748407
+          - 0.48187092
+          - 0.5057628
+          - 0.52915996
+          - 0.55206233
+          - 0.57446986
+          - 0.5963825
+          - 0.6178004
+          - 0.6387235
+          - 0.65915173
+          - 0.67908514
+          - 0.6985237
+          - 0.7174675
+          - 0.73591644
+          - 0.75387055
+          - 0.7713299
+          - 0.7882944
+          - 0.80476403
+          - 0.820739
+          - 0.83621895
+          - 0.8512042
+          - 0.86569464
+          - 0.8796902
+          - 0.8931909
+          - 0.90619683
+          - 0.918708
+          - 0.9307243
+          - 0.9422458
+          - 0.9532724
+          - 0.96380424
+          - 0.9738413
+          - 0.9833835
+          - 0.9924815
+          - 1.0014106
+          - 1.0102123
+          - 1.0188866
+          - 1.0274339
+          - 1.0358545
+          - 1.0441483
+          - 1.0523158
+          - 1.0603572
+          - 1.0682726
+          - 1.0760622
+          - 1.0837264
+          - 1.0912652
+          - 1.098679
+          - 1.1059679
+          - 1.1131321
+          - 1.1201719
+          - 1.1270875
+          - 1.1338791
+          - 1.1405468
+          - 1.147091
+          - 1.1535119
+          - 1.1598095
+          - 1.1659843
+          - 1.1720364
+          - 1.177966
+          - 1.1837733
+          - 1.1894585
+          - 1.1950219
+          - 1.2004637
+          - 1.2057841
+          - 1.2109832
+          - 1.2160614
+          - 1.2210188
+          - 1.2258557
+          - 1.2305722
+          - 1.2351687
+          - 1.2396452
+          - 1.244002
+          - 1.2482394
+          - 1.2523576
+          - 1.2563567
+          - 1.260237
+          - 1.2639986
+          - 1.267642
+          - 1.2711672
+          - 1.2745744
+          - 1.2778639
+          - 1.2810358
+          - 1.2840904
+          - 1.287028
+          - 1.2898487
+          - 1.2925526
+          - 1.2951403
+          - 1.2976116
+          - 1.2999669
+          - 1.3022065
+          - 1.3043305
+          - 1.3063391
+          - 1.3082327
+          - 1.3100113
+          - 1.3116752
+          - 1.3132244
+          - 1.3146596
+          - 1.3159807
+          - 1.3171879
+          - 1.3182815
+          - 1.3192616
+          - 1.3201286
+          - 1.3208826
+          - 1.3215238
+          - 1.3220525
+          - 1.3224689
+          - 1.3227731
+          - 1.3229655
+          - 1.3230461
+          - 1.3230153
+          - 1.3228732
+          - 1.3226202
+          - 1.3222563
+          - 1.3217819
+          - 1.321197
+          - 1.3205019
+          - 1.3196969
+          - 1.3187822
+          - 1.317758
+          - 1.3166244
+          - 1.3153818
+          - 1.3140303
+          - 1.3125701
+          - 1.3110015
+          - 1.3093246
+          - 1.3075398
+          - 1.3056473
+          - 1.303647
+          - 1.3015395
+          - 1.2993249
+          - 1.2970033
+          - 1.294575
+          - 1.2920402
+          - 1.2893991
+          - 1.286652
+          - 1.283799
+          - 1.2808404
+          - 1.2777764
+          - 1.2746072
+          - 1.271333
+          - 1.2679541
+          - 1.2644706
+          - 1.2608827
+          - 1.2571908
+          - 1.253395
+          - 1.2494955
+          - 1.2454926
+          - 1.2413864
+          - 1.2371771
+          - 1.2328651
+          - 1.2284503
+          - 1.2239333
+          - 1.2193141
+          - 1.214593
+          - 1.2097701
+          - 1.2048457
+          - 1.1998199
+          - 1.1946932
+          - 1.1894654
+          - 1.1841372
+          - 1.1787084
+          - 1.1731794
+          - 1.1675504
+          - 1.1618217
+          - 1.1559933
+          - 1.1500655
+          - 1.1440388
+          - 1.137913
+          - 1.1316886
+          - 1.1253656
+          - 1.1189444
+          - 1.1124251
+          - 1.105808
+          - 1.0990932
+          - 1.0922811
+          - 1.0853717
+          - 1.0783653
+          - 1.0712622
+          - 1.0640626
+          - 1.0567666
+          - 1.0493746
+          - 1.0418866
+          - 1.034303
+          - 1.0266238
+          - 1.0188495
+          - 1.01098
+          - 1.0030159
+          - 0.99495703
+          - 0.9869231
+          - 0.9790998
+          - 0.97145414
+          - 0.9639491
+          - 0.9565478
+          - 0.9492135
+          - 0.9419091
+          - 0.9345977
+          - 0.9272425
+          - 0.9198066
+          - 0.912253
+          - 0.9045449
+          - 0.8966453
+          - 0.8885173
+          - 0.8801241
+          - 0.87142867
+          - 0.86239415
+          - 0.8529838
+          - 0.8431604
+          - 0.83288723
+          - 0.8221274
+          - 0.81084394
+          - 0.799
+          - 0.7865587
+          - 0.773483
+          - 0.7597361
+          - 0.74528104
+          - 0.7300811
+          - 0.7140991
+          - 0.6972983
+          - 0.6796417
+          - 0.6610925
+          - 0.6416138
+          - 0.62116855
+          - 0.59972
+          - 0.5772311
+          - 0.5536652
+          - 0.5289851
+          - 0.50315404
+          - 0.4761351
+          - 0.44789135
+          - 0.41838592
+          - 0.38758197
+          - 0.35544243
+          - 0.3219305
+          - 0.28700924
+          - 0.25064182
+          - 0.2127912
+          - 0.17342062
+          - 0.13249323
+          - 0.08997186
+          - 0.045819733
+          - 0
+    - rid: 1493498103108993454
+      type: {class: Noise200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 8343477961122381839
+        version: 1
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 202.06927, y: -3.1889267}
+        guiSize: {x: 150, y: 224}
+        guiName: NOISE
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 168
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0f00000000fdc973
+        type: 2
+        seed: 12345
+        intensity: 1
+        size: 200
+        detail: 0.5
+        turbulence: 0
+        offset:
+          x: 0
+          z: 0
+    - rid: 1493498103108993455
+      type: {class: Selector200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 10201520670668488720
+        version: 1
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 424.1215, y: 302.34155}
+        guiSize: {x: 150, y: 184}
+        guiName: SELECTOR
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 128
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 100000000015938d
+        serializedMissingOutletIds: 100000000015938d
+        rangeDet: 1
+        units: 0
+        from: {x: 0.39999998, y: 0.6}
+        to: {x: 0.9, y: 1.1}

@@ -1,0 +1,17 @@
+{
+    "name": "MapMagic",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f916027ffe7a29c4dbc7d2ba84359bf4",
+        "GUID:92e3b62f055d5d441828b35f56b6a3a2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

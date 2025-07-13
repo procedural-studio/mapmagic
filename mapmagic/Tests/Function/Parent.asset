@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
+  m_Name: Parent
+  m_EditorClassIdentifier: 
+  generators:
+  - rid: 8859647044563239009
+  - rid: 8859647044563239697
+  groups: []
+  exposed:
+    serEntries: []
+  defaults:
+    serializedDict: "< \"root\", \"Den.Tools.DictionaryOrdered`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], Den.Tools.Unity\",
+      id1,\r\n  < \"dict\", \"System.Collections.Generic.Dictionary`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id2,\r\n   
+      < \"_buckets\", System.Object, id0, null >,\r\n    < \"_entries\", System.Object,
+      id0, null >,\r\n    < \"_count\", System.Int32, id0, 0 >,\r\n    < \"_comparer\",
+      System.Object, id0, null >,\r\n    < \"_version\", System.Int32, id0, 0 > >,\r\n 
+      < \"order\", \"System.Collections.Generic.List`1[[System.String, mscorlib]],
+      mscorlib\", id3,\r\n    < \"_items\", \"System.String[], mscorlib\", id4 >,\r\n   
+      < \"_size\", System.Int32, id0, 0 >,\r\n    < \"_version\", System.Int32, id0,
+      0 > > >"
+    unityObjects: []
+  guiScroll: {x: 182.5203, y: 65.030945}
+  guiZoomStage: 0
+  guiShowDependent: 0
+  guiShowShared: 0
+  guiShowExposed: 0
+  guiShowDebug: 0
+  guiShowColors: 0
+  guiMiniPos: {x: 20, y: 20}
+  guiMiniAnchor: {x: 0, y: 0}
+  debugName: 
+  debugGenerate: 1
+  debugGenInfo: 0
+  debugGraphBackground: 1
+  debugGraphBackColor: 0.5
+  debugGraphFps: 1
+  drawInSceneView: 0
+  saveChanges: 1
+  debugDrawPortalLinks: 0
+  debugDrawMousePosition: 1
+  assetName: Parent
+  serializedVersion:
+    major: 3
+    minor: 0
+    prt: 4
+    patch: 0
+  serializedGeneratorIds300: 1c000000007557ea03000000002814ff
+  serializedInlets300: 
+  serializedOutlets300: 
+  serializedNoiseSeed: 12345
+  serializedNoisePermutation: 32768
+  serializer200beta:
+    serializedData: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8859647044563239009
+      type: {class: Function210, ns: MapMagic.Nodes.Biomes, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 16886093970709413916
+        version: 567
+        draftTime: 12.3219
+        mainTime: 46.5177
+        guiPosition: {x: -38.329414, y: 185.50859}
+        guiSize: {x: 182.9924, y: 162}
+        guiName: FUNCTION
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 82
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 0100000000e1cd28
+        subGraph: {fileID: 11400000, guid: 173b99936d3775c4783ac3885acd97d7, type: 2}
+        ovd:
+          serializedDict: "< \"root\", \"Den.Tools.DictionaryOrdered`2[[System.String,
+            mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], Den.Tools.Unity\",
+            id1,\r\n  < \"dict\", \"System.Collections.Generic.Dictionary`2[[System.String,
+            mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\",
+            id2,\r\n    < \"_buckets\", System.Object, id0, null >,\r\n    < \"_entries\",
+            System.Object, id0, null >,\r\n    < \"_count\", System.Int32, id0, 0
+            >,\r\n    < \"_comparer\", System.Object, id0, null >,\r\n    < \"_version\",
+            System.Int32, id0, 0 > >,\r\n  < \"order\", \"System.Collections.Generic.List`1[[System.String,
+            mscorlib]], mscorlib\", id3,\r\n    < \"_items\", \"System.String[],
+            mscorlib\", id4 >,\r\n    < \"_size\", System.Int32, id0, 0 >,\r\n   
+            < \"_version\", System.Int32, id0, 0 > > >"
+          unityObjects: []
+        serValuesKeys: 030000000002051a03000000005a6345
+        serValuesValues:
+        - val:
+            x: 12
+            y: 12
+            z: 12
+            w: 12
+            uobj: {fileID: 0}
+          name: Size
+        - val:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+            uobj: {fileID: 0}
+          name: Intensity2
+    - rid: 8859647044563239697
+      type: {class: HeightOutput200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 18380359959670947843
+        version: 10
+        draftTime: 0.559
+        mainTime: 0.0008
+        guiPosition: {x: 236.69736, y: 199.96497}
+        guiSize: {x: 150, y: 128}
+        guiName: HEIGHT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 68
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Unity, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes: []
+        serializedMissingInletIds: 03000000002814ff
+        serializedMissingOutletIds: 
+        outputLevel: 3
+        guiApplyType: 0

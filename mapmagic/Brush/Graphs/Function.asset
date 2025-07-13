@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
+  m_Name: Function
+  m_EditorClassIdentifier: 
+  generators: []
+  groups: []
+  exposed:
+    serEntries: []
+  defaults:
+    serializedDict: "< \"root\", \"Den.Tools.DictionaryOrdered`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], Den.Tools.Unity\",
+      id1,\r\n  < \"dict\", \"System.Collections.Generic.Dictionary`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id2,\r\n   
+      < \"_buckets\", System.Object, id0, null >,\r\n    < \"_entries\", System.Object,
+      id0, null >,\r\n    < \"_count\", System.Int32, id0, 0 >,\r\n    < \"_comparer\",
+      System.Object, id0, null >,\r\n    < \"_version\", System.Int32, id0, 0 > >,\r\n 
+      < \"order\", \"System.Collections.Generic.List`1[[System.String, mscorlib]],
+      mscorlib\", id3,\r\n    < \"_items\", \"System.String[], mscorlib\", id4 >,\r\n   
+      < \"_size\", System.Int32, id0, 0 >,\r\n    < \"_version\", System.Int32, id0,
+      0 > > >"
+    unityObjects: []
+  guiScroll: {x: 0, y: 0}
+  guiZoomStage: 1
+  guiShowDependent: 0
+  guiShowShared: 0
+  guiShowExposed: 1
+  guiShowDebug: 1
+  guiShowColors: 0
+  guiMiniPos: {x: 20, y: 20}
+  guiMiniAnchor: {x: 0, y: 0}
+  debugName: 
+  debugGenerate: 1
+  debugGenInfo: 0
+  debugGraphBackground: 0
+  debugGraphBackColor: 0.5
+  debugGraphFps: 0
+  drawInSceneView: 0
+  saveChanges: 1
+  debugDrawPortalLinks: 0
+  debugDrawMousePosition: 1
+  assetName: Function
+  serializedVersion:
+    major: 3
+    minor: 0
+    prt: 4
+    patch: 0
+  serializedGeneratorIds300: 
+  serializedInlets300: 
+  serializedOutlets300: 
+  serializedNoiseSeed: 12345
+  serializedNoisePermutation: 32768
+  serializer200beta:
+    serializedData: []
+  references:
+    version: 2
+    RefIds: []

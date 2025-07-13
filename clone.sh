@@ -1,0 +1,1 @@
+git clone https://gitlab.com/denispahunov/mapmagic

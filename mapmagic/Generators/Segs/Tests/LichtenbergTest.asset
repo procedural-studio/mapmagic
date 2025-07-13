@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a0b1615e0cd3b45a4c51ec40ba36d3, type: 3}
+  m_Name: LichtenbergTest
+  m_EditorClassIdentifier: 
+  className: Den.Tools.Polylines.PolylineMatrixOps
+  methodName: LichtenbergReverse
+  argumentsMatch: 0
+  updateOnValueChange: 0
+  updateOnSceneChange: 0
+  instance:
+    name: argument
+    typeName: 
+    methodChangesObject: 0
+    gizmo:
+      enabled: 0
+      advanced: 0
+      color: {r: 1, g: 0, b: 0, a: 1}
+      props:
+        x: 0.1
+        y: 0
+        z: 0
+        w: 0
+      arrProps: []
+      Interconnection: 0
+    guiExpanded: 0
+    serObj:
+      serObj:
+        rid: -2
+      serType: 
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  arguments: []
+  result:
+    name: argument
+    typeName: 
+    methodChangesObject: 0
+    gizmo:
+      enabled: 0
+      advanced: 0
+      color: {r: 1, g: 0, b: 0, a: 1}
+      props:
+        x: 0.1
+        y: 0
+        z: 0
+        w: 0
+      arrProps: []
+      Interconnection: 0
+    guiExpanded: 0
+    serObj:
+      serObj:
+        rid: -2
+      serType: 
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  guiArgumentsExpanded: 1
+  prevBenchmarkTimes: []
+  prevTestTimes: []
+  benchmarkIterations: 100
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

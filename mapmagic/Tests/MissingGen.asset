@@ -1,0 +1,766 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
+  m_Name: MissingGen
+  m_EditorClassIdentifier: 
+  generators:
+  - rid: 1885265643755798674
+  - rid: 1885265648337027850
+  - rid: 1885265660713370051
+  - rid: 1885265660713370053
+  groups:
+  - rid: 1885265648263103135
+  - rid: 1885265648263103137
+  guiScroll: {x: 190.89499, y: 456.08704}
+  guiZoomStage: 0
+  guiShowDependent: 0
+  guiShowShared: 0
+  guiShowExposed: 1
+  guiShowDebug: 1
+  guiShowColors: 0
+  guiMiniPos: {x: 20, y: 20}
+  guiMiniAnchor: {x: 0, y: 0}
+  debugName: 
+  debugGenerate: 1
+  debugGenInfo: 0
+  debugGraphBackground: 1
+  debugGraphBackColor: 0.5
+  debugGraphFps: 1
+  drawInSceneView: 0
+  saveChanges: 1
+  debugDrawPortalLinks: 0
+  debugDrawMousePosition: 1
+  assetName: MissingGen
+  serializedVersion:
+    major: 3
+    minor: 0
+    prt: 4
+    patch: 0
+  serializedGeneratorIds300: 0100000000379c285e02000000d0e5b95e020000004081815f0200000003a081
+  serializedInlets300: 
+  serializedOutlets300: 
+  serializedNoiseSeed: 12345
+  serializedNoisePermutation: 32768
+  serializer200beta:
+    serializedData: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1885265643755798674
+      type: {class: HeightOutput200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 2926274331023507457
+        version: 10
+        draftTime: 9.248
+        mainTime: 0.0375
+        guiPosition: {x: 429.6, y: -218.4}
+        guiSize: {x: 150, y: 120}
+        guiName: HEIGHT
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 64
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes: []
+        serializedMissingInletIds: 0100000000379c28
+        serializedMissingOutletIds: 
+        outputLevel: 3
+        guiApplyType: 0
+    - rid: 1885265648263103135
+      type: {class: Group, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: Test
+        comment: Drag in generators to group them
+        color: {r: 0.94921875, g: 0.33203125, b: 0.296875, a: 1}
+        pinned: 0
+        guiPos: {x: -253.34775, y: -264.3565}
+        guiSize: {x: 476.48694, y: 190.99133}
+    - rid: 1885265648263103137
+      type: {class: Comment, ns: MapMagic.Nodes, asm: MapMagic}
+      data:
+        name: Test Comment multiple lines etcsdfdsfsdf
+        comment: Drag in generators to group them
+        color: {r: 0.99609375, g: 0.7109375, b: 0.28125, a: 1}
+        pinned: 0
+        guiPos: {x: -156.31236, y: -518.7063}
+        guiSize: {x: 180.48676, y: 152.15332}
+    - rid: 1885265648337027850
+      type: {class: Noise200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 13395341365101986398
+        version: 5
+        draftTime: 10.7381
+        mainTime: 149.0945
+        guiPosition: {x: -172.85095, y: -328.02094}
+        guiSize: {x: 150, y: 224}
+        guiName: NOISE
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 168
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes: []
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 
+        serializedMissingOutletIds: 5e02000000d0e5b9
+        type: 2
+        seed: 12345
+        intensity: 1
+        size: 200
+        detail: 0.5
+        turbulence: 0
+        offset:
+          x: 0
+          z: 0
+    - rid: 1885265660713370051
+      type: {class: Curve200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 9331810271632556638
+        version: 16
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 84.8, y: -337.6}
+        guiSize: {x: 150, y: 364}
+        guiName: CURVE
+        guiPreview: 1
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 158
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 5e02000000408181
+        serializedMissingOutletIds: 5e02000000408181
+        curve:
+          points:
+          - pos: {x: 0, y: 0}
+            inTangent: 0
+            outTangent: 2.6403325
+            linear: 1
+          - pos: {x: 0.31141695, y: 0.61182374}
+            inTangent: 1.2889575
+            outTangent: 1.2889575
+            linear: 0
+          - pos: {x: 1, y: 1}
+            inTangent: -0.16149358
+            outTangent: 0
+            linear: 1
+          lut:
+          - 0
+          - 0.010320878
+          - 0.02057502
+          - 0.030762428
+          - 0.0408831
+          - 0.05093704
+          - 0.060924247
+          - 0.07084471
+          - 0.080698445
+          - 0.09048544
+          - 0.100205705
+          - 0.10985923
+          - 0.119446024
+          - 0.12896608
+          - 0.1384194
+          - 0.14780599
+          - 0.15712586
+          - 0.16637897
+          - 0.17556535
+          - 0.184685
+          - 0.19373792
+          - 0.2027241
+          - 0.21164353
+          - 0.22049625
+          - 0.22928223
+          - 0.23800145
+          - 0.24665397
+          - 0.25523973
+          - 0.26375875
+          - 0.27221107
+          - 0.2805966
+          - 0.28891546
+          - 0.29716757
+          - 0.30535296
+          - 0.31347156
+          - 0.32152343
+          - 0.3295086
+          - 0.33742702
+          - 0.34527868
+          - 0.35306367
+          - 0.36078185
+          - 0.36843333
+          - 0.37601808
+          - 0.38353613
+          - 0.39098734
+          - 0.3983719
+          - 0.40568972
+          - 0.4129408
+          - 0.42012513
+          - 0.4272427
+          - 0.43429357
+          - 0.44127768
+          - 0.44819507
+          - 0.4550458
+          - 0.46182966
+          - 0.46854687
+          - 0.47519735
+          - 0.48178107
+          - 0.48829803
+          - 0.4947483
+          - 0.5011318
+          - 0.5074486
+          - 0.51369864
+          - 0.51988196
+          - 0.5259986
+          - 0.53204834
+          - 0.53803146
+          - 0.5439479
+          - 0.5497975
+          - 0.5555804
+          - 0.5612965
+          - 0.56694597
+          - 0.5725287
+          - 0.57804465
+          - 0.5834939
+          - 0.58887637
+          - 0.5941921
+          - 0.5994412
+          - 0.60462344
+          - 0.60973895
+          - 0.6147937
+          - 0.6198132
+          - 0.6248003
+          - 0.62975496
+          - 0.6346773
+          - 0.63956714
+          - 0.6444247
+          - 0.6492498
+          - 0.6540424
+          - 0.65880275
+          - 0.6635307
+          - 0.66822624
+          - 0.67288935
+          - 0.6775201
+          - 0.6821185
+          - 0.68668437
+          - 0.69121796
+          - 0.6957191
+          - 0.70018786
+          - 0.70462424
+          - 0.70902824
+          - 0.71339977
+          - 0.717739
+          - 0.72204584
+          - 0.7263202
+          - 0.7305622
+          - 0.7347718
+          - 0.73894906
+          - 0.7430939
+          - 0.7472063
+          - 0.7512864
+          - 0.75533396
+          - 0.7593492
+          - 0.7633321
+          - 0.76728255
+          - 0.7712006
+          - 0.7750863
+          - 0.77893955
+          - 0.78276044
+          - 0.786549
+          - 0.7903051
+          - 0.79402876
+          - 0.7977201
+          - 0.80137897
+          - 0.8050055
+          - 0.8085996
+          - 0.8121614
+          - 0.8156907
+          - 0.8191877
+          - 0.8226522
+          - 0.8260844
+          - 0.8294841
+          - 0.83285147
+          - 0.83618647
+          - 0.83948904
+          - 0.84275925
+          - 0.84599704
+          - 0.84920245
+          - 0.8523754
+          - 0.855516
+          - 0.8586243
+          - 0.86170006
+          - 0.8647435
+          - 0.8677545
+          - 0.87073314
+          - 0.8736794
+          - 0.87659323
+          - 0.8794747
+          - 0.88232374
+          - 0.8851404
+          - 0.8879247
+          - 0.8906766
+          - 0.893396
+          - 0.8960831
+          - 0.89873785
+          - 0.90136015
+          - 0.9039501
+          - 0.90650755
+          - 0.9090327
+          - 0.9115254
+          - 0.9139857
+          - 0.9164137
+          - 0.9188093
+          - 0.9211724
+          - 0.92350316
+          - 0.9258015
+          - 0.92806745
+          - 0.930301
+          - 0.9325022
+          - 0.934671
+          - 0.9368074
+          - 0.9389114
+          - 0.940983
+          - 0.9430222
+          - 0.94502896
+          - 0.9470034
+          - 0.94894546
+          - 0.95085514
+          - 0.9527323
+          - 0.95457715
+          - 0.9563896
+          - 0.9581697
+          - 0.95991737
+          - 0.9616326
+          - 0.9633155
+          - 0.96496594
+          - 0.966584
+          - 0.96816975
+          - 0.969723
+          - 0.97124386
+          - 0.9727324
+          - 0.9741885
+          - 0.9756123
+          - 0.9770036
+          - 0.9783625
+          - 0.979689
+          - 0.9809832
+          - 0.98224497
+          - 0.9834743
+          - 0.9846713
+          - 0.9858358
+          - 0.98696804
+          - 0.98806775
+          - 0.98913515
+          - 0.9901702
+          - 0.99117273
+          - 0.9921429
+          - 0.99308074
+          - 0.9939862
+          - 0.9948592
+          - 0.9956998
+          - 0.996508
+          - 0.9972839
+          - 0.9980273
+          - 0.9987384
+          - 0.999417
+          - 1.0000633
+          - 1.0006772
+          - 1.0012586
+          - 1.0018077
+          - 1.0023243
+          - 1.0028087
+          - 1.0032606
+          - 1.0036801
+          - 1.0040672
+          - 1.0044218
+          - 1.0047442
+          - 1.0050341
+          - 1.0052917
+          - 1.0055168
+          - 1.0057095
+          - 1.0058699
+          - 1.0059979
+          - 1.0060934
+          - 1.0061566
+          - 1.0061873
+          - 1.0061858
+          - 1.0061517
+          - 1.0060853
+          - 1.0059865
+          - 1.0058553
+          - 1.0056916
+          - 1.0054957
+          - 1.0052673
+          - 1.0050066
+          - 1.0047134
+          - 1.0043879
+          - 1.0040299
+          - 1.0036396
+          - 1.0032167
+          - 1.0027616
+          - 1.002274
+          - 1.0017542
+          - 1.0012019
+          - 1.0006171
+          - 1
+    - rid: 1885265660713370053
+      type: {class: Curve200, ns: MapMagic.Nodes.MatrixGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 9340468925701292639
+        version: 126
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 74.4, y: 74.4}
+        guiSize: {x: 150, y: 214}
+        guiName: CURVE
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 158
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 5f0200000003a081
+        serializedMissingOutletIds: 5f0200000003a081
+        curve:
+          points:
+          - pos: {x: 0, y: 0}
+            inTangent: 0
+            outTangent: -0.6563381
+            linear: 1
+          - pos: {x: 0.7515798, y: 0.3502033}
+            inTangent: 1.5882505
+            outTangent: 1.5882505
+            linear: 0
+          - pos: {x: 1, y: 1}
+            inTangent: 3.643181
+            outTangent: 0
+            linear: 1
+          lut:
+          - 0
+          - -0.002550911
+          - -0.005055893
+          - -0.007514947
+          - -0.009928073
+          - -0.01229527
+          - -0.01461654
+          - -0.016891878
+          - -0.019121291
+          - -0.021304775
+          - -0.02344233
+          - -0.025533957
+          - -0.027579654
+          - -0.029579423
+          - -0.031533264
+          - -0.03344118
+          - -0.035303164
+          - -0.03711922
+          - -0.03888935
+          - -0.040613547
+          - -0.042291816
+          - -0.043924164
+          - -0.04551058
+          - -0.047051057
+          - -0.048545618
+          - -0.049994245
+          - -0.051396944
+          - -0.052753724
+          - -0.05406456
+          - -0.05532948
+          - -0.05654847
+          - -0.057721525
+          - -0.05884866
+          - -0.059929863
+          - -0.060965132
+          - -0.061954476
+          - -0.06289789
+          - -0.06379539
+          - -0.064646944
+          - -0.06545257
+          - -0.066212274
+          - -0.06692605
+          - -0.0675939
+          - -0.06821582
+          - -0.068791814
+          - -0.06932187
+          - -0.069806
+          - -0.07024419
+          - -0.07063648
+          - -0.07098283
+          - -0.07128325
+          - -0.07153773
+          - -0.071746305
+          - -0.07190893
+          - -0.07202564
+          - -0.0720964
+          - -0.07212127
+          - -0.072100185
+          - -0.07203319
+          - -0.07192024
+          - -0.07176138
+          - -0.07155659
+          - -0.071305856
+          - -0.071009204
+          - -0.070666626
+          - -0.07027812
+          - -0.06984369
+          - -0.06936332
+          - -0.06883703
+          - -0.068264805
+          - -0.06764666
+          - -0.06698258
+          - -0.06627259
+          - -0.06551664
+          - -0.06471478
+          - -0.06386699
+          - -0.062973276
+          - -0.06203362
+          - -0.061048053
+          - -0.060016558
+          - -0.05893913
+          - -0.057815734
+          - -0.05664647
+          - -0.055431247
+          - -0.054170113
+          - -0.05286302
+          - -0.051510006
+          - -0.05011111
+          - -0.04866621
+          - -0.04717545
+          - -0.04563873
+          - -0.04405608
+          - -0.042427503
+          - -0.040753
+          - -0.039032575
+          - -0.03726622
+          - -0.035453927
+          - -0.033595707
+          - -0.03169156
+          - -0.029741501
+          - -0.027745483
+          - -0.025703564
+          - -0.023615729
+          - -0.021481933
+          - -0.019302223
+          - -0.017076548
+          - -0.014804997
+          - -0.0124874925
+          - -0.010124057
+          - -0.007714703
+          - -0.0052594226
+          - -0.0027582292
+          - -0.00021108413
+          - 0.0023819914
+          - 0.005021006
+          - 0.007705909
+          - 0.010436784
+          - 0.013213541
+          - 0.016036257
+          - 0.018904928
+          - 0.021819493
+          - 0.024779981
+          - 0.027786383
+          - 0.030838773
+          - 0.033937056
+          - 0.037081238
+          - 0.040271413
+          - 0.04350745
+          - 0.046789486
+          - 0.050117373
+          - 0.053491265
+          - 0.05691101
+          - 0.06037676
+          - 0.06388841
+          - 0.06744592
+          - 0.07104943
+          - 0.07469884
+          - 0.07839421
+          - 0.08213551
+          - 0.08592269
+          - 0.089755856
+          - 0.093634926
+          - 0.09755991
+          - 0.10153084
+          - 0.10554763
+          - 0.10961047
+          - 0.11371917
+          - 0.11787378
+          - 0.12207436
+          - 0.12632084
+          - 0.13061328
+          - 0.13495165
+          - 0.13933587
+          - 0.14376612
+          - 0.14824222
+          - 0.15276428
+          - 0.1573323
+          - 0.1619462
+          - 0.16660605
+          - 0.1713118
+          - 0.17606355
+          - 0.18086119
+          - 0.18570471
+          - 0.19059423
+          - 0.19552961
+          - 0.200511
+          - 0.2055383
+          - 0.21061145
+          - 0.2157306
+          - 0.22089562
+          - 0.22610663
+          - 0.2313636
+          - 0.2366664
+          - 0.2420152
+          - 0.24740985
+          - 0.25285053
+          - 0.25833708
+          - 0.26386955
+          - 0.26944798
+          - 0.2750723
+          - 0.2807426
+          - 0.28645882
+          - 0.2922209
+          - 0.29802898
+          - 0.30388293
+          - 0.30978286
+          - 0.31572872
+          - 0.32172048
+          - 0.3277582
+          - 0.33384186
+          - 0.33997136
+          - 0.34614688
+          - 0.35237315
+          - 0.35870937
+          - 0.3651728
+          - 0.3717634
+          - 0.37848124
+          - 0.3853263
+          - 0.39229858
+          - 0.39939806
+          - 0.40662473
+          - 0.4139786
+          - 0.42145976
+          - 0.42906806
+          - 0.4368036
+          - 0.4446664
+          - 0.45265636
+          - 0.46077353
+          - 0.4690179
+          - 0.4773895
+          - 0.48588833
+          - 0.49451438
+          - 0.5032676
+          - 0.512148
+          - 0.5211557
+          - 0.5302906
+          - 0.5395527
+          - 0.548942
+          - 0.5584585
+          - 0.56810224
+          - 0.57787323
+          - 0.5877713
+          - 0.5977967
+          - 0.6079493
+          - 0.61822903
+          - 0.62863606
+          - 0.6391703
+          - 0.6498317
+          - 0.66062033
+          - 0.6715362
+          - 0.6825792
+          - 0.6937496
+          - 0.705047
+          - 0.7164718
+          - 0.7280237
+          - 0.73970276
+          - 0.75150913
+          - 0.7634427
+          - 0.77550346
+          - 0.7876914
+          - 0.8000066
+          - 0.81244904
+          - 0.8250187
+          - 0.83771545
+          - 0.8505395
+          - 0.86349076
+          - 0.8765692
+          - 0.8897749
+          - 0.9031079
+          - 0.9165679
+          - 0.9301552
+          - 0.9438697
+          - 0.9577115
+          - 0.97168046
+          - 0.98577654
+          - 1

@@ -1,0 +1,691 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b87197ec1e01c4a984713d8a8aebd4, type: 3}
+  m_Name: MeanderGen_OutOfMemory_Test
+  m_EditorClassIdentifier: 
+  genTypeName: MapMagic.Nodes.SegsGenerators.MeanderGen
+  genTypeValid: 1
+  generator:
+    rid: 1493498034860589117
+  area:
+    active:
+      rect:
+        offset:
+          x: 0
+          z: 0
+        size:
+          x: 513
+          z: 513
+      worldPos:
+        x: 0
+        z: 0
+      worldSize:
+        x: 100
+        z: 100
+    full:
+      rect:
+        offset:
+          x: -16
+          z: -16
+        size:
+          x: 545
+          z: 545
+      worldPos:
+        x: -3.125
+        z: -3.125
+      worldSize:
+        x: 106.25
+        z: 106.25
+  height: 250
+  seed: 12345
+  inputs:
+  - name: Input
+    typeName: Den.Tools.Lines.LineSys
+    methodChangesObject: 0
+    gizmo:
+      guiExpanded: 1
+      enabled: 1
+      selectedObject: {fileID: 11400000}
+      edit: 1
+      name: Input
+      mode: 0
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 5, y: 0.1, z: 5}
+      color: {r: 1, g: 0, b: 0, a: 1}
+      undoObject: {fileID: 11400000}
+    guiExpanded: 1
+    serObj:
+      serObj:
+        rid: 1493498103108993482
+      serType: Den.Tools.Lines.LineSys
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  results:
+  - name: Output
+    typeName: Den.Tools.Lines.LineSys
+    methodChangesObject: 0
+    gizmo:
+      guiExpanded: 1
+      enabled: 1
+      selectedObject: {fileID: 11400000}
+      edit: 0
+      name: Output
+      mode: 1
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 5, y: 5, z: 5}
+      color: {r: 0.09317112, g: 1, b: 0, a: 1}
+      undoObject: {fileID: 11400000}
+    guiExpanded: 1
+    serObj:
+      serObj:
+        rid: 1493498103108993583
+      serType: Den.Tools.Lines.LineSys
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  - name: oxbows
+    typeName: Den.Tools.Lines.LineSys
+    methodChangesObject: 0
+    gizmo:
+      guiExpanded: 0
+      enabled: 1
+      selectedObject: {fileID: 11400000}
+      edit: 0
+      name: oxbows
+      mode: 2
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 5, y: 5, z: 5}
+      color: {r: 1, g: 0.008950837, b: 0, a: 1}
+      undoObject: {fileID: 11400000}
+    guiExpanded: 1
+    serObj:
+      serObj:
+        rid: 1493498103108993584
+      serType: Den.Tools.Lines.LineSys
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  - name: 
+    typeName: 
+    methodChangesObject: 0
+    gizmo:
+      guiExpanded: 0
+      enabled: 0
+      selectedObject: {fileID: 0}
+      edit: 0
+      name: 
+      mode: 0
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 5, y: 5, z: 5}
+      color: {r: 1, g: 0.5, b: 0, a: 1}
+      undoObject: {fileID: 0}
+    guiExpanded: 0
+    serObj:
+      serObj:
+        rid: -2
+      serType: 
+      serIndex: 0
+      serPrimitive:
+        intValue: 0
+        floatValue: 0
+        byteValue: 0
+        longValue: 0
+        doubleValue: 0
+        shortValue: 0
+        boolValue: 0
+        uintValue: 0
+        ulongValue: 0
+        ushortValue: 0
+      serPrimitiveString: 
+      serPrimitiveUnityObject: {fileID: 0}
+      serArray: []
+  updateOnValueChange: 1
+  updateOnSceneChange: 0
+  guiInputsExpanded: 1
+  guiGenExpanded: 0
+  guiResultsExpanded: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1493498034860589117
+      type: {class: MeanderGen, ns: MapMagic.Nodes.SegsGenerators, asm: MapMagic}
+      data:
+        enabled: 1
+        id: 12801448955451801601
+        version: 1968
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: 0, y: 0}
+        guiSize: {x: 0, y: 0}
+        guiName: 
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        guiField: 1
+        guiFieldHeight: 100
+        guiAdvancedHeight: 40
+        fieldInlets:
+          fieldNames: []
+          typeNames: []
+          serChNums: 
+          serArrIndexes: 
+          serIds: 
+          serGuiNames: []
+          serGen:
+            rid: -2
+        serializedMissingDownloadString: 
+        serializedMissingInletTypes:
+        - Den.Tools.Lines.LineSys, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingOutletTypes:
+        - Den.Tools.Lines.LineSys, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Lines.LineSys, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - Den.Tools.Matrices.MatrixWorld, Den.Tools.Native, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedMissingInletIds: 0100000000e2a7b1
+        serializedMissingOutletIds: 0100000000e2a7b10100000000c80dfb0200000000c90dfb
+        iterations: 1
+        subdivideDist: 10
+        inertia: 0.12
+        initialRandomize: 0.5
+        seed: 12345
+        oxbowsOut:
+          id: 18090335180542705665
+          guiName: 
+        stampMaskOut:
+          id: 18090336280054333442
+          guiName: 
+    - rid: 1493498103108993482
+      type: {class: LineSys, ns: Den.Tools.Lines, asm: Den.Tools.Native}
+      data:
+        lines:
+        - nodes:
+          - x: 10669.618
+            y: 0
+            z: 9881.816
+          - x: 10734.405
+            y: 0
+            z: 10277.923
+          - x: 10456.208
+            y: 0
+            z: 10462.722
+          count: 3
+          guiExpanded: 1
+        guiExpanded: 0
+    - rid: 1493498103108993583
+      type: {class: LineSys, ns: Den.Tools.Lines, asm: Den.Tools.Native}
+      data:
+        lines:
+        - nodes:
+          - x: 10669.618
+            y: 0
+            z: 9881.816
+          - x: 10671.185
+            y: 0
+            z: 9891.4795
+          - x: 10669.897
+            y: 0
+            z: 9896.65
+          - x: 10668.61
+            y: 0
+            z: 9901.82
+          - x: 10672.426
+            y: 0
+            z: 9906.156
+          - x: 10676.242
+            y: 0
+            z: 9910.492
+          - x: 10672.895
+            y: 0
+            z: 9916
+          - x: 10669.548
+            y: 0
+            z: 9921.507
+          - x: 10677.121
+            y: 0
+            z: 9925.228
+          - x: 10684.695
+            y: 0
+            z: 9928.948
+          - x: 10678.586
+            y: 0
+            z: 9934.907
+          - x: 10672.478
+            y: 0
+            z: 9940.866
+          - x: 10678.393
+            y: 0
+            z: 9944.858
+          - x: 10684.307
+            y: 0
+            z: 9948.851
+          - x: 10686.841
+            y: 0
+            z: 9958.355
+          - x: 10688.695
+            y: 0
+            z: 9967.972
+          - x: 10686.755
+            y: 0
+            z: 9973.249
+          - x: 10684.814
+            y: 0
+            z: 9978.526
+          - x: 10688.773
+            y: 0
+            z: 9982.84
+          - x: 10692.732
+            y: 0
+            z: 9987.152
+          - x: 10691.538
+            y: 0
+            z: 9992.307
+          - x: 10690.344
+            y: 0
+            z: 9997.462
+          - x: 10692.32
+            y: 0
+            z: 10002.098
+          - x: 10694.297
+            y: 0
+            z: 10006.734
+          - x: 10697.519
+            y: 0
+            z: 10016.127
+          - x: 10698.425
+            y: 0
+            z: 10025.898
+          - x: 10701.18
+            y: 0
+            z: 10030.407
+          - x: 10703.936
+            y: 0
+            z: 10034.916
+          - x: 10698.145
+            y: 0
+            z: 10040.823
+          - x: 10692.354
+            y: 0
+            z: 10046.73
+          - x: 10695.497
+            y: 0
+            z: 10056.136
+          - x: 10693.109
+            y: 0
+            z: 10061.486
+          - x: 10690.722
+            y: 0
+            z: 10066.836
+          - x: 10697.964
+            y: 0
+            z: 10070.611
+          - x: 10705.206
+            y: 0
+            z: 10074.388
+          - x: 10707.796
+            y: 0
+            z: 10078.924
+          - x: 10710.386
+            y: 0
+            z: 10083.46
+          - x: 10708.018
+            y: 0
+            z: 10088.807
+          - x: 10705.649
+            y: 0
+            z: 10094.154
+          - x: 10710.116
+            y: 0
+            z: 10098.383
+          - x: 10714.583
+            y: 0
+            z: 10102.612
+          - x: 10714.124
+            y: 0
+            z: 10107.647
+          - x: 10713.665
+            y: 0
+            z: 10112.683
+          - x: 10706.891
+            y: 0
+            z: 10118.75
+          - x: 10700.117
+            y: 0
+            z: 10124.817
+          - x: 10708.283
+            y: 0
+            z: 10128.441
+          - x: 10716.45
+            y: 0
+            z: 10132.066
+          - x: 10710.058
+            y: 0
+            z: 10138.071
+          - x: 10703.665
+            y: 0
+            z: 10144.076
+          - x: 10711.361
+            y: 0
+            z: 10147.777
+          - x: 10719.059
+            y: 0
+            z: 10151.479
+          - x: 10715.264
+            y: 0
+            z: 10157.059
+          - x: 10711.47
+            y: 0
+            z: 10162.639
+          - x: 10717.498
+            y: 0
+            z: 10166.613
+          - x: 10723.526
+            y: 0
+            z: 10170.587
+          - x: 10725.566
+            y: 0
+            z: 10175.213
+          - x: 10727.606
+            y: 0
+            z: 10179.839
+          - x: 10723.648
+            y: 0
+            z: 10185.446
+          - x: 10719.689
+            y: 0
+            z: 10191.054
+          - x: 10718.456
+            y: 0
+            z: 10196.215
+          - x: 10717.223
+            y: 0
+            z: 10201.377
+          - x: 10719.574
+            y: 0
+            z: 10205.952
+          - x: 10721.925
+            y: 0
+            z: 10210.527
+          - x: 10722.989
+            y: 0
+            z: 10220.272
+          - x: 10725.228
+            y: 0
+            z: 10229.826
+          - x: 10731.322
+            y: 0
+            z: 10233.789
+          - x: 10737.418
+            y: 0
+            z: 10237.751
+          - x: 10731.989
+            y: 0
+            z: 10243.6
+          - x: 10726.561
+            y: 0
+            z: 10249.447
+          - x: 10732.643
+            y: 0
+            z: 10253.412
+          - x: 10738.724
+            y: 0
+            z: 10257.378
+          - x: 10731.0625
+            y: 0
+            z: 10263.59
+          - x: 10723.401
+            y: 0
+            z: 10269.803
+          - x: 10729.9375
+            y: 0
+            z: 10273.764
+          - x: 10736.474
+            y: 0
+            z: 10277.725
+          - x: 10743.01
+            y: 0
+            z: 10281.686
+          - x: 10735.223
+            y: 0
+            z: 10283.436
+          - x: 10727.437
+            y: 0
+            z: 10285.186
+          - x: 10725.121
+            y: 0
+            z: 10290.576
+          - x: 10722.806
+            y: 0
+            z: 10295.967
+          - x: 10715.323
+            y: 0
+            z: 10293.58
+          - x: 10707.841
+            y: 0
+            z: 10291.192
+          - x: 10704.879
+            y: 0
+            z: 10295.609
+          - x: 10701.916
+            y: 0
+            z: 10300.025
+          - x: 10695.949
+            y: 0
+            z: 10299.92
+          - x: 10689.983
+            y: 0
+            z: 10299.815
+          - x: 10685.047
+            y: 0
+            z: 10301.26
+          - x: 10680.11
+            y: 0
+            z: 10302.705
+          - x: 10679.328
+            y: 0
+            z: 10310.404
+          - x: 10678.547
+            y: 0
+            z: 10318.103
+          - x: 10671.928
+            y: 0
+            z: 10317.014
+          - x: 10665.308
+            y: 0
+            z: 10315.926
+          - x: 10663.66
+            y: 0
+            z: 10322.321
+          - x: 10662.012
+            y: 0
+            z: 10328.717
+          - x: 10655.625
+            y: 0
+            z: 10327.979
+          - x: 10649.238
+            y: 0
+            z: 10327.241
+          - x: 10649.077
+            y: 0
+            z: 10335.875
+          - x: 10648.916
+            y: 0
+            z: 10344.508
+          - x: 10640.794
+            y: 0
+            z: 10341.157
+          - x: 10632.672
+            y: 0
+            z: 10337.807
+          - x: 10625.1045
+            y: 0
+            z: 10344.169
+          - x: 10623.694
+            y: 0
+            z: 10350.922
+          - x: 10622.284
+            y: 0
+            z: 10357.675
+          - x: 10615.771
+            y: 0
+            z: 10356.748
+          - x: 10609.26
+            y: 0
+            z: 10355.82
+          - x: 10608.768
+            y: 0
+            z: 10363.957
+          - x: 10608.276
+            y: 0
+            z: 10372.093
+          - x: 10600.117
+            y: 0
+            z: 10368.6875
+          - x: 10591.958
+            y: 0
+            z: 10365.281
+          - x: 10589.957
+            y: 0
+            z: 10371.1455
+          - x: 10587.955
+            y: 0
+            z: 10377.01
+          - x: 10585.852
+            y: 0
+            z: 10382.719
+          - x: 10583.747
+            y: 0
+            z: 10388.429
+          - x: 10575.909
+            y: 0
+            z: 10394.38
+          - x: 10567.307
+            y: 0
+            z: 10399.183
+          - x: 10558.443
+            y: 0
+            z: 10394.716
+          - x: 10549.58
+            y: 0
+            z: 10390.249
+          - x: 10548.716
+            y: 0
+            z: 10397.824
+          - x: 10547.852
+            y: 0
+            z: 10405.399
+          - x: 10538.674
+            y: 0
+            z: 10409.337
+          - x: 10530.493
+            y: 0
+            z: 10414.774
+          - x: 10521.69
+            y: 0
+            z: 10419.276
+          - x: 10520.221
+            y: 0
+            z: 10425.939
+          - x: 10518.751
+            y: 0
+            z: 10432.604
+          - x: 10513.008
+            y: 0
+            z: 10432.834
+          - x: 10507.265
+            y: 0
+            z: 10433.065
+          - x: 10501.834
+            y: 0
+            z: 10433.766
+          - x: 10496.402
+            y: 0
+            z: 10434.465
+          - x: 10491.793
+            y: 0
+            z: 10436.402
+          - x: 10487.184
+            y: 0
+            z: 10438.341
+          - x: 10484.293
+            y: 0
+            z: 10442.865
+          - x: 10481.402
+            y: 0
+            z: 10447.391
+          - x: 10475.91
+            y: 0
+            z: 10448
+          - x: 10470.419
+            y: 0
+            z: 10448.61
+          - x: 10468.662
+            y: 0
+            z: 10454.841
+          - x: 10466.904
+            y: 0
+            z: 10461.071
+          - x: 10461.557
+            y: 0
+            z: 10461.896
+          - x: 10456.208
+            y: 0
+            z: 10462.722
+          count: 138
+          guiExpanded: 0
+        guiExpanded: 0
+    - rid: 1493498103108993584
+      type: {class: LineSys, ns: Den.Tools.Lines, asm: Den.Tools.Native}
+      data:
+        lines: []
+        guiExpanded: 0

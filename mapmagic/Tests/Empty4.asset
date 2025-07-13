@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
+  m_Name: Empty4
+  m_EditorClassIdentifier: 
+  generators:
+  - rid: 1885265714747801600
+  groups: []
+  exposed:
+    serEntries: []
+  defaults:
+    serializedDict: "< \"root\", \"Den.Tools.DictionaryOrdered`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], Den.Tools.Unity\",
+      id1,\r\n  < \"dict\", \"System.Collections.Generic.Dictionary`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id2,\r\n   
+      < \"_buckets\", System.Object, id0, null >,\r\n    < \"_entries\", System.Object,
+      id0, null >,\r\n    < \"_count\", System.Int32, id0, 0 >,\r\n    < \"_comparer\",
+      System.Object, id0, null >,\r\n    < \"_version\", System.Int32, id0, 0 > >,\r\n 
+      < \"order\", \"System.Collections.Generic.List`1[[System.String, mscorlib]],
+      mscorlib\", id3,\r\n    < \"_items\", \"System.String[], mscorlib\", id4 >,\r\n   
+      < \"_size\", System.Int32, id0, 0 >,\r\n    < \"_version\", System.Int32, id0,
+      0 > > >"
+    unityObjects: []
+  guiShowDependent: 0
+  guiShowShared: 0
+  guiShowExposed: 0
+  guiShowDebug: 0
+  guiMiniPos: {x: 20, y: 20}
+  guiMiniAnchor: {x: 0, y: 0}
+  debugName: 
+  debugGenerate: 1
+  debugGenInfo: 0
+  debugGraphBackground: 1
+  debugGraphBackColor: 0.5
+  debugGraphFps: 1
+  drawInSceneView: 0
+  saveChanges: 1
+  assetName: Empty4
+  serializedVersion:
+    major: 3
+    minor: 0
+    prt: 4
+    patch: 0
+  serializedGeneratorIds300: 010000000089e9c9
+  serializedInlets300: 
+  serializedOutlets300: 
+  serializedNoiseSeed: 12345
+  serializedNoisePermutation: 32768
+  serializer200beta:
+    serializedData: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1885265714747801600
+      type: {class: MyTempGenerator5, ns: , asm: MapMagic.Tests}
+      data:
+        enabled: 1
+        id: 14549310704290103297
+        version: 0
+        draftTime: 0
+        mainTime: 0
+        guiPosition: {x: -117.6, y: -277.6}
+        guiSize: {x: 150, y: 1028}
+        guiPreview: 0
+        guiAdvanced: 0
+        guiDebug: 0
+        position:
+          x: 0
+          z: 0
+        radius: 30
+        hardness: 0.5
+        prefabval: {fileID: 0}
+        scriptableObjectval: {fileID: 0}
+        intval: 42
+        floatval: 42
+        doubleval: 42
+        vector2val: {x: 42, y: 42}
+        vector3val: {x: 42, y: 42, z: 42}
+        vector4val: {x: 42, y: 42, z: 42, w: 42}
+        rectval:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 42
+          height: 42
+        intvector2val: {x: 42, y: 42}
+        intvector3val: {x: 42, y: 42, z: 42}
+        intvector4val: {x: 42, y: 42, z: 42, w: 42}
+        stringval: default
+        boolval: 1
+        longval: 42
+        shortval: 42
+        byteval: 42
+        charval: 99
+        uintval: 42
+        ulongval: 42
+        ushortval: 42
+        sbyteval: 42
+        coordval:
+          x: 0
+          z: 0
+        coordRectVal:
+          offset:
+            x: 0
+            z: 0
+          size:
+            x: 0
+            z: 0
+        vector2Dval:
+          x: 0
+          z: 0
+        colorval: {r: 0, g: 0, b: 0, a: 0}
+        enumVal: 0
+        rectOffsetVal:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        intRectVal:
+          x: 0
+          y: 0
+          width: 0
+          height: 0
